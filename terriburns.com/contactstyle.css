@@ -1,0 +1,51 @@
+/*formats nav bar*/
+ul {
+	position: relative;
+	top: 0px;
+	right: -370px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+
+}
+/*this is for the nav bar*/
+a:link, a:visited {
+    display: block;
+    width: 120px;
+    color: white;
+    font-style: italic;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+/*this is for the hover/active color change*/
+a:hover, a:active {
+    background-color: #A9F5A9;
+}
+h1 {
+    color: white;
+}
+h1:hover {
+    color: black;
+}
+
+p {
+    
+    color: white;
+}
+
+/*this is for the photo background*/
+body {
+    background-image: url("internet.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

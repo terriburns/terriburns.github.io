@@ -1,0 +1,30 @@
+/*This is for the 'Click to Enter' on landing page*/
+h1 {
+	position: relative;
+	top: 50px;
+}
+
+a {  
+	font-size:170%; 
+	font-style: italic;
+    background-repeat: no-repeat;
+    background-position: top left; 
+}
+
+a:link { color: black; }
+a:active { color: black; }
+a:visited { color: black; }
+a:hover { color: #A9E2F3; }
+
+
+/*this is for the photo background*/
+body {
+	display: none;
+    background-image: url("test2.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
