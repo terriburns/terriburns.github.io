@@ -1,4 +1,4 @@
 terriburns.github.io
 ====================
 
-Currently in the works. Forgive me.
+What will eventually be my website. Currently in the works. Forgive me.
