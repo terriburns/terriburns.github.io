@@ -42,7 +42,7 @@ p {
 
 /*this is for the photo background*/
 body {
-    background-image: url("contact2.jpg");
+    background-image: url("contact2.JPG");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
   -moz-background-size: cover;
