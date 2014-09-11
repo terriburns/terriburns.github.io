@@ -1,18 +1,28 @@
+head {
+    float: right;
+}
+
 /*formats nav bar*/
+
 ul {
-	position: relative;
-	top: 0px;
-	right: -370px;
+    float: right;
+    text-align: right;
+    position: right;
+    top: 0px;
+    right: -0px;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+
 }
 
 li {
-    float: left;
+    float: right;
 
 }
+
+
 /*this is for the nav bar*/
 a:link, a:visited {
     display: block;
@@ -24,16 +34,24 @@ a:link, a:visited {
     padding: 10px;
     text-decoration: none;
 }
+
+b {
+    background-color: none;
+}
 /*this is for the hover/active color change*/
 a:hover, a:active {
     background-color: #F6CEF5;
 }
-h1{
-    color:white;
+h1 {
+    float: right;
+    color: white;
 }
+
 h1:hover {
     color: black;
 }
+
+
 
 /*this is for the text*/
 p {
