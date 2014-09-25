@@ -2,8 +2,21 @@ head {
     float: right;
 }
 
-/*formats nav bar*/
 
+
+
+/*this is for the photo background*/
+body {
+    background-image: url("code2.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/*formats nav bar*/
 ul {
     float: right;
     text-align: right;
@@ -14,18 +27,16 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-
 }
 
 li {
     float: right;
-
 }
 
 
 /*this is for the nav bar*/
-a:link, a:visited {
-    display: block;
+a.one, a.one:link, a.one:visited {
+    display: inline-block;
     width: 120px;
     color: white;
     font-style: italic;
@@ -35,13 +46,11 @@ a:link, a:visited {
     text-decoration: none;
 }
 
-b {
-    background-color: none;
-}
-/*this is for the hover/active color change*/
-a:hover, a:active {
+a.one, a.one:hover, a:active {
     background-color: #F5D0A9;
 }
+
+/*this is for the hover/active color change= page title*/
 h1 {
     float: right;
     color: white;
@@ -52,25 +61,69 @@ h1:hover {
 }
 
 
-/*this is for the text*/
+
+
+/*this is for the page content*/
 p {
+    }
+
+/*all the content not including the links*/
+#content {
+    width: 450px;
+    height: 420px;
+    font-family: "Optima", Times, sans-serif;
+    color: black;
+
     display: block;
-    width: 360px;
+
+    /*these dimensions make a circle*/
+    width: 420px;
+    height: 420px;
+    -webkit-border-radius: 210px;
+    -moz-border-radius: 210px;
+    border-radius: 210px;
+
+    /*alignment of the text*/
     color: white;
     position: fixed;
-    top: 150px;
+    top: 170px;
     left: 65px;
-    text-align: justify;
+    text-align: left;
+    vertical-align: middle;
     background-color: white;
     opacity: 0.6;
     color: black;
 }
-/*this is for the photo background*/
-body {
-    background-image: url("code2.jpg");
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+/*for the links*/
+#content a.two:link, a.two:visited{
+    width: 450px;
+    height: 420px;
+    font-family: "Optima", Times, sans-serif;
+    color: #0080FF;
+    font-style: none;
+    text-decoration: none;   
+    position: relative;
+    
+}
+
+#content a.two:hover {
+    font-style: italic;
+}
+ 
+
+/*this is for the copyright*/
+#footer {
+    width:100%;
+    height:80px;
+    position:absolute;
+    text-align: center;
+    vertical-align: middle;
+    bottom:0;
+    left:0;
+    background: none;
+
+    color: white;
+    opacity: 0.6;
+    font-style: italic;
+    font-size: 14;
 }

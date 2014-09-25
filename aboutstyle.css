@@ -24,7 +24,7 @@ li {
 
 
 /*this is for the nav bar*/
-a:link, a:visited {
+a.one:link, a.one:visited {
     display: block;
     width: 120px;
     color: white;
@@ -39,7 +39,7 @@ b {
     background-color: none;
 }
 /*this is for the hover/active color change*/
-a:hover, a:active {
+a.one:hover, a.one:active {
     background-color: #E1F5A9;
 }
 h1 {
@@ -51,7 +51,56 @@ h1:hover {
 	color: black;
 }
 
+#content {
+    width: 450px;
+    height: 420px;
+    font-family: "Optima", Times, sans-serif;
+    color: black;
 
+    display: block;
+
+    /*these dimensions make a circle*/
+    width: 480px;
+    height: 480px;
+    -webkit-border-radius: 224px;
+    -moz-border-radius: 224px;
+    border-radius: 224px;
+
+    /*alignment of the text*/
+    color: white;
+    position: fixed;
+    top: 170px;
+    left: 65px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: white;
+    opacity: 0.6;
+    color: black;
+}
+
+#content a.two{
+    color: #0080FF;
+}
+
+#content a.two:hover {
+    font-style: italic;
+}
+
+#footer {
+    width:100%;
+    height:80px;
+    position:absolute;
+    text-align: center;
+    vertical-align: middle;
+    bottom:0;
+    left:0;
+    background: none;
+
+    color: white;
+    opacity: 0.6;
+    font-style: italic;
+    font-size: 14;
+}
 
 /*this is for the photo background*/
 body {

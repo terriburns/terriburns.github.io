@@ -1,12 +1,11 @@
 /*This is for the 'Click to Enter' on landing page*/
 h1 {
 	position: relative;
-	top: 50px;
+	top: 240px;
 }
 
 a {  
 	font-size:170%; 
-	font-style: italic;
     background-repeat: no-repeat;
     background-position: top left; 
 }
@@ -14,7 +13,7 @@ a {
 a:link { color: black; }
 a:active { color: black; }
 a:visited { color: black; }
-a:hover { color: #A9E2F3; }
+a:hover { font-size:220%;}
 
 
 /*this is for the photo background*/

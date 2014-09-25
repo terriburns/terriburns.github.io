@@ -24,7 +24,7 @@ li {
 
 
 /*this is for the nav bar*/
-a:link, a:visited {
+a.one:link, a.one:visited {
     display: block;
     width: 120px;
     color: white;
@@ -39,7 +39,7 @@ b {
     background-color: none;
 }
 /*this is for the hover/active color change*/
-a:hover, a:active {
+a.one:hover, a.one:active {
     background-color: #F6CEF5;
 }
 h1 {
@@ -51,21 +51,61 @@ h1:hover {
     color: black;
 }
 
-
-
-/*this is for the text*/
-p {
+#content {
     display: block;
-    width: 360px;
+
+    /*these dimensions make a circle*/
+    width: 420px;
+    height: 420px;
+    -webkit-border-radius: 210px;
+    -moz-border-radius: 210px;
+    border-radius: 210px;
+
+    /*alignment of the text*/
     color: white;
     position: fixed;
-    top: 150px;
+    top: 170px;
     left: 65px;
-    text-align: justify;
+    text-align: center;
+    vertical-align: middle;
     background-color: white;
     opacity: 0.6;
     color: black;
+
+    /*font*/
+    font-family: "Optima", Times, sans-serif
+
 }
+#content a.two{
+    color: #0080FF;
+}
+#content a.two:hover {
+    font-style: italic;
+}
+/*this is for the text*/
+p {
+    }
+
+
+/*this is for the copyright*/
+#footer {
+    width:100%;
+    height:80px;
+    position:absolute;
+    text-align: center;
+    vertical-align: middle;
+    bottom:0;
+    left:0;
+    background: none;
+
+
+    color: white;
+    opacity: 0.6;
+    
+    font-style: italic;
+    font-size: 14;
+}
+
 /*this is for the photo background*/
 body {
     background-image: url("internet2.jpg");
