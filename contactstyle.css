@@ -61,11 +61,11 @@ p {
     display: block;
 
     /*these dimensions make a circle*/
-    width: 420px;
-    height: 420px;
-    -webkit-border-radius: 210px;
-    -moz-border-radius: 210px;
-    border-radius: 210px;
+    width: 210px;
+    height: 210px;
+    -webkit-border-radius: 105px;
+    -moz-border-radius: 105px;
+    border-radius: 105px;
 
     /*alignment of the text*/
     color: white;
@@ -102,7 +102,7 @@ p {
 }
 /*this is for the photo background*/
 body {
-    background-image: url("contact2.JPG");
+    background-image: url("contact1.png");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
   -moz-background-size: cover;
