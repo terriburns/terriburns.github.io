@@ -5,21 +5,21 @@ h1 {
 }
 
 a {  
-	font-size:170%; 
+	font-size:140%; 
     background-repeat: no-repeat;
     background-position: top left; 
 }
 
-a:link { color: black; }
-a:active { color: black; }
-a:visited { color: black; }
-a:hover { font-size:220%;}
+a:link { color: white; }
+a:active { color: white; }
+a:visited { color: white; }
+a:hover { font-style:italic;}
 
 
 /*this is for the photo background*/
 body {
 	display: none;
-    background-image: url("test3.JPG");
+    background-image: url("internet2.JPG");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
   -moz-background-size: cover;

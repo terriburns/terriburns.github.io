@@ -1,84 +1,58 @@
-head {
-    float: right;
-}
+/*todo
+-fix size of table
+*/
 
-/*formats nav bar*/
-
-ul {
-    float: right;
-    text-align: right;
-    position: right;
-    top: 0px;
-    right: -0px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-
-}
-
-li {
-    float: right;
-
-}
-
-
-
-/*this is for the nav bar*/
-a:link, a:visited {
-    display: block;
-    width: 120px;
-    color: white;
-    font-style: italic;
+body {
     background-color: black;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
-}
+} 
 
-b {
-    background-color: none;
+
+/*table layout of the page*/
+table {
+    float: center;
+    border-spacing: 50px;
 }
+ a{
+    color:#81BEF7;/*light blue*/
+ }
+
 /*this is for the hover/active color change*/
 a:hover, a:active {
-    background-color: #A9E2F3;
+    color: #A4A4A4;
+    background-color: none;
 }
 
+
+/*name*/
 h1 {
     float: right;
-    color: black;
-}
-
-
-
-/*this is for the copyright*/
-#footer  {
-    width:100%;
-    height:80px;
-    position:absolute;
-    text-align: center;
-    vertical-align: middle;
-    bottom:0;
-    left:0;
-    background: none;
-
     color: white;
-    opacity: 0.6;
-    font-style: italic;
-    font-size: 14;
+    font-family: "Georgia", Times, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 150%;
+}
+/*location*/
+h2 {
+    font-weight: normal;
+    float: right;
+    color: white;
+    font-family: "Helvetica Neue", Times, sans-serif;
+    font-size: 11;
+    line-height: 150%;
+
+}
+/*content*/
+h3 {
+    font-weight: normal;
+    float: left;
+    color: white;
+    font-family: "Helvetica Neue", Times, sans-serif;
+    font-size: 11;
+    line-height: 150%;
 }
 
-
-/*this is for the photo background*/
-body {
-
-	
-    background-image: url("home4.jpg");
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-  	-moz-background-size: cover;
- 	 -o-background-size: cover;
- 	 background-size: cover;
-
-     
+/*titles*/
+b {
+    color: #307D7E;
 }
