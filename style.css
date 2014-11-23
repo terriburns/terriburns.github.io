@@ -1,5 +1,6 @@
 /*This is for the 'Click to Enter' on landing page*/
 h1 {
+  font-weight: normal;
 	position: relative;
 	top: 240px;
 }
@@ -19,7 +20,7 @@ a:hover {color: black; }
 /*this is for the photo background*/
 body {
 	display: none;
-    background-image: url("internet22.JPG");
+    background-image: url("internet22.jpg");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
   -moz-background-size: cover;
