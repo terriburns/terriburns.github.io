@@ -13,7 +13,7 @@ a {
 a:link { color: white; }
 a:active { color: white; }
 a:visited { color: white; }
-a:hover { font-style:italic;}
+a:hover {color: black; }
 
 
 /*this is for the photo background*/
