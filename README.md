@@ -1,4 +1,4 @@
-terriburns.github.io
+terriburns.com
 ====================
 
-What will eventually be my website. Currently in the works. Forgive me.
+Currently my personal website made from scratch. Continuously in the works. 
