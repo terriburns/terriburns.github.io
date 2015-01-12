@@ -26,9 +26,9 @@ a:hover, a:active {
 /*name*/
 h1 {
     float: right;
-    color: black;
+    color: #B404AE;
     font-family: "Georgia", Times, sans-serif;
-    font-size: 22px;
+    font-size: 34px;
     font-weight: normal;
     line-height: 150%;
 }
@@ -38,7 +38,7 @@ h2 {
     float: right;
     color: black;
     font-family: "Helvetica Neue", Times, sans-serif;
-    font-size: 11;
+    font-size: 11.5;
     line-height: 150%;
 
 }
@@ -48,7 +48,7 @@ h3 {
     float: left;
     color:  black;
     font-family: "Helvetica Neue", Times, sans-serif;
-    font-size: 11;
+    font-size: 11.5;
     line-height: 150%;
 }
 
