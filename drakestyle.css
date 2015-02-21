@@ -1,0 +1,85 @@
+
+h1 {
+	
+	margin-top: 3%;
+	margin-right: 10%;
+	margin-left: 10%;
+	font-weight: normal;  
+    color: black;
+    font-family: "Helvetica Neue", Times, sans-serif;
+    font-size: 12;
+    line-height: 150%;
+
+}
+
+h1:hover; {
+	color: green;
+}
+
+/*answer key*/
+h2 {
+	
+	font-weight: normal;
+	font-family: "Helvetica Neue", Times, sans-serif;
+	font-size: 12;
+    line-height: 150%;
+
+}
+/*problem numbers*/
+h3 {
+	font-weight: bold;  
+    color: #04B486;
+    font-family: "Helvetica Neue", Times, sans-serif;
+    font-size: 12;
+    line-height: 150%;
+    text-decoration: underline;
+}
+
+/*Tellin'*/
+h4{
+	font-weight: bold;  
+    color: #B40431;
+    font-size: 30;
+
+
+}
+
+/*title*/
+h5 {
+	font-family: "Helvetica Neue", Times, sans-serif;
+	font-weight: bold;
+	color: black;
+	font-size: 50;
+
+}
+
+table.table1, table.table1 tr, table.table1 td {
+	border: 1px solid black;
+	text-align: center;
+	font-weight: normal;
+	font-family: "Helvetica Neue", Times, sans-serif;
+	font-size: 10;
+    line-height: 150%;
+
+
+ }
+
+ table.table2, table.table2 tr, table.table2 td{
+ 	text-align: left;
+	font-weight: normal;
+	font-family: "Helvetica Neue", Times, sans-serif;
+	font-size: 10;
+    line-height: 150%;
+    
+ }
+    
+/*links*/
+a {
+	color: #04B486;
+}
+
+a:hover {
+	color: green;
+	}
+
+/*cities*/ 
