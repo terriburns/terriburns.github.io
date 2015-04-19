@@ -4,7 +4,7 @@ p {
 	margin-left: 220px;
 	margin-bottom: 50px;
 	font-family: 'Raleway',sans-serif;
-	font-size: 20;
+	font-size: 18;
 	color: white;
 	
 }
@@ -13,3 +13,22 @@ p {
 html { 
   background-color: black;
 }
+
+p1 {
+	font-family: 'Raleway',sans-serif;
+	color: #81DAF5;
+	
+}
+
+p2 {
+	font-family: 'Raleway',sans-serif;
+	color: #DCA3A3;
+	
+}
+
+p3 {
+	font-family: 'Raleway',sans-serif;
+	color: #BFA3DC;
+	
+}
+
