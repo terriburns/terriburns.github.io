@@ -1,5 +1,7 @@
 /*This is for the 'Click to Enter' on landing page*/
 h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 69;
   font-weight: normal;
 	position: relative;
 	top: 240px;

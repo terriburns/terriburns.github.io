@@ -1,19 +1,6 @@
-/*todo
--fix size of table
-*/
 
-body {
-    background-color: white;
-} 
-
-
-/*table layout of the page*/
-table {
-    float: center;
-    border-spacing: 50px;
-}
  a{
-    color:#81BEF7;/*light blue*/
+    color:#0489B1;/*light blue*/
  }
 
 /*this is for the hover/active color change*/
@@ -25,34 +12,39 @@ a:hover, a:active {
 
 /*name*/
 h1 {
-    float: right;
-    font-family: 'Roboto', sans-serif;
-    font-size: 34px;
+    float: center;
+    font-color: black;
+    font-family: 'Amatic SC', cursive;
+    font-size: 69px;
     font-weight: 100;
     font-style: normal;
-    line-height: 150%;
+    line-height: 110%;
+   
+}
+
+h1:hover {
+    font-color: white;
 }
 /*location*/
 h2 {
     font-weight: normal;
-    float: right;
+    float: center;
     color: black;
-    font-family: "Helvetica Neue", Times, sans-serif;
-    font-size: 11.5;
-    line-height: 150%;
+    font-family: 'Bad Script', cursive;
+    font-size: 16;
+    line-height: 100%;
 
 }
 /*content*/
 h3 {
     font-weight: normal;
-    float: left;
-    color:  black;
-    font-family: "Helvetica Neue", Times, sans-serif;
-    font-size: 11.5;
-    line-height: 150%;
+    float: center;
+    color: black;
+    font-family: 'Bad Script', cursive;
+    font-size: 16;
+    line-height: 130%;
 }
 
-/*titles*/
-b {
-    color: #307D7E;
-}
+
+
+
