@@ -1,10 +1,16 @@
-
+/*This is for the 'Click to Enter' on landing page*/
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 69;
+  font-weight: normal;
+	position: relative;
+	top: 240px;
+}
 
 a {  
-  font-size:140%; 
+	font-size:140%; 
     background-repeat: no-repeat;
     background-position: top left; 
-    
 }
 
 a:link { color: white; }
@@ -15,8 +21,8 @@ a:hover {color: black; }
 
 /*this is for the photo background*/
 body {
-  display: none;
-    background-image: url("img/internet22.jpg");
+	display: none;
+    background-image: url("internet22.jpg");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -24,14 +30,3 @@ body {
   background-size: cover;
 }
 
-
-
-
-/*This is for the 'Click to Enter' on landing page*/
-h1 {
-  font-family: 'Amatic SC', cursive;
-  font-size: 69;
-  font-weight: normal;
-	position: relative;
-	top: 240px;
-}
