@@ -12,9 +12,15 @@ b /*nouns*/
     color:#E2A9C5;
 }
 
+
 body {
+  display: none;
     background-image: url("img/mebw.jpg");
-     background-size: 100% auto;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /*name*/
