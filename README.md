@@ -1,3 +1,4 @@
 terriburns.com
 ====================
-personal website: an indefinite project.
+
+Currently my personal website made from scratch. Continuously in the works. 
