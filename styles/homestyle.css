@@ -1,6 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Amatic+SC);
 
-body{background:#000;}
 
 .lasvegas {
   font-family: 'Amatic SC', cursive;
@@ -72,14 +71,14 @@ body{background:#000;}
   }
 }
 
-a{                                                                                                                                                                         color: white;
+a{                                                                                                                                                 color: white;
  }
 
- /*this is for the hover/active color change*/
  a:hover, a:active {
    color:#0489B1;/*light blue*/
    background-color: none;
 }
+
 b /*nouns*/
 {
   color:#72BA7B;
@@ -88,6 +87,7 @@ b /*nouns*/
 body {
   background-color: black;
 }
+
 /*
 body {
 display: none;
@@ -133,8 +133,6 @@ h3 {
   font-size: 16;
   line-height: 130%;
 }
-
-
-
-
-
+.social {
+  color:#9F81F7;
+}
