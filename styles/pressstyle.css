@@ -1,0 +1,53 @@
+a {
+  color:white
+}
+
+a:hover, a:active {
+   color:#0489B1;/*light blue*/
+   background-color: none;
+}
+
+body {
+  display: none;
+  background-image: url("../img/me.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  float: center;
+  color: white;
+  font-family: 'Amatic SC', cursive;
+  font-size: 69px;
+  font-weight: 100;
+  font-style: normal;
+  line-height: 110%;
+  text-decoration:none;
+
+}
+
+h1:hover, h3:hover {
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: normal;
+  float: center;
+  color: white;
+  font-family: 'Lato';
+  font-size: 20;
+  line-height: 100%;
+}
+
+h3 {
+  float: center;
+  color: #F5A9E1;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  font-weight: 100;
+  font-style: normal;
+  line-height: 110%;
+}
