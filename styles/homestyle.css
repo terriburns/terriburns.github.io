@@ -71,8 +71,9 @@
   }
 }
 
-a{                                                                                                                                                 color: white;
- }
+a{
+  color:white;
+}
 
 a:hover, a:active {
    color:#0489B1;/*light blue*/
@@ -101,7 +102,6 @@ background-size: cover;
 
 /*name*/
 h1 {
-  float: center;
   color: white;
   font-family: 'Amatic SC', cursive;
   font-size: 69px;
@@ -117,7 +117,6 @@ h1:hover {
 /*location*/
 h2 {
   font-weight: normal;
-  float: center;
   color: white;
   font-family: 'Bad Script', cursive;
   font-size: 16;
@@ -127,7 +126,6 @@ h2 {
 /*content*/
 h3 {
   font-weight: normal;
-  float: center;
   color: white;
   font-family: 'Bad Script', cursive;
   font-size: 16;
