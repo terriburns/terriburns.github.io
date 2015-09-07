@@ -1,8 +1,7 @@
 a {  
   font-size:140%; 
-    background-repeat: no-repeat;
-    background-position: top left; 
-    
+  background-repeat: no-repeat;
+  background-position: top left; 
 }
 
 a:link { color: white; }
@@ -10,13 +9,12 @@ a:active { color: white; }
 a:visited { color: white; }
 a:hover {color: black; }
 
-
 /*this is for the photo background*/
 body {
   display: none;
-    background-image: url("img/internet22.jpg");
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
+  background-image: url("img/internet22.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -27,6 +25,6 @@ h1 {
   font-family: 'Amatic SC', cursive;
   font-size: 69;
   font-weight: normal;
-	position: relative;
-	top: 240px;
+  position: relative;
+  top: 240px;
 }

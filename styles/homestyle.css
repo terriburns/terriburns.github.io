@@ -74,7 +74,7 @@
 a{                                                                                                                                                 color: white;
  }
 
- a:hover, a:active {
+a:hover, a:active {
    color:#0489B1;/*light blue*/
    background-color: none;
 }
