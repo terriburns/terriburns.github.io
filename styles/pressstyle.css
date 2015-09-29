@@ -9,12 +9,7 @@ a:hover, a:active {
 
 body {
   display: none;
-  background-image: url("../img/me.jpg");
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: black;
 }
 
 h1 {
@@ -38,11 +33,10 @@ h2 {
   color: white;
   font-family: 'Raleway', sans-serif;
   font-size: 20;
-  line-height: 100%;
+  line-height: 30px;
 }
 
 h3 {
-  float: center;
   color: #F5A9E1;
   font-family: 'Amatic SC', cursive;
   font-size: 30px;
