@@ -29,11 +29,10 @@ h1:hover, h3:hover {
 
 h2 {
   font-weight: normal;
-  float: center;
   color: white;
   font-family: 'Raleway', sans-serif;
   font-size: 20;
-  line-height: 30px;
+  line-height: 40px;
 }
 
 h3 {
