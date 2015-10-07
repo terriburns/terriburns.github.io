@@ -1,4 +1,4 @@
 terriburns.com/terri.party
 ====================
 
-An indefinite project!
+a personal website, an indefinite project

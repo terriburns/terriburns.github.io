@@ -20,9 +20,6 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-
-
-
 ! function($) {
 
     "use strict";
@@ -127,13 +124,6 @@
             var humanize = Math.round(Math.random() * (100 - 30)) + this.typeSpeed;
             var self = this;
 
-            // ------------- optional ------------- //
-            // backpaces a certain string faster
-            // ------------------------------------ //
-            // if (self.arrayPos == 1){
-            //  self.backDelay = 50;
-            // }
-            // else{ self.backDelay = 500; }
 
             // contain typing function in a timeout humanize'd delay
             self.timeout = setTimeout(function() {
@@ -234,18 +224,6 @@
 
             self.timeout = setTimeout(function() {
 
-                // ----- this part is optional ----- //
-                // check string array position
-                // on the first string, only delete one word
-                // the stopNum actually represents the amount of chars to
-                // keep in the current string. In my case it's 14.
-                // if (self.arrayPos == 1){
-                //  self.stopNum = 14;
-                // }
-                //every other time, delete the whole typed string
-                // else{
-                //  self.stopNum = 0;
-                // }
 
                 if (self.contentType === 'html') {
                     // skip over html tags while backspacing
@@ -298,25 +276,6 @@
 
         }
 
-        // Start & Stop currently not working
-
-        // , stop: function() {
-        //     var self = this;
-
-        //     self.stop = true;
-        //     clearInterval(self.timeout);
-        // }
-
-        // , start: function() {
-        //     var self = this;
-        //     if(self.stop === false)
-        //        return;
-
-        //     this.stop = false;
-        //     this.init();
-        // }
-
-        // Reset and rebuild the element
         ,
         reset: function() {
             var self = this;
