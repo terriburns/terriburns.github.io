@@ -84,20 +84,19 @@ b /*nouns*/
   color:#72BA7B;
 }
 
-body {
+/*body {
   background-color: black;
-}
+}*/
 
-/*
 body {
-display: none;
-background-image: url("img/mebw.jpg");
-background-repeat: no-repeat;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-}/*
+  display: none;
+  background-image: url("../img/jhishan.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 /*name*/
 h1 {
@@ -116,7 +115,7 @@ h1:hover {
 h2 {
   font-weight: normal;
   color: white;
-  font-family: 'Bad Script', cursive;
+  font-family: 'Lato';
   font-size: 16;
   line-height: 100%;
 
@@ -125,11 +124,11 @@ h2 {
 h3 {
   font-weight: normal;
   color: white;
-  font-family: 'Bad Script', cursive;
-  font-size: 16;
+  font-family: 'Lato';
+  font-size: 18;
   line-height: 130%;
 }
 
 .social {
-  color:#9F81F7;
+  color:#A6F9B0;
 }
