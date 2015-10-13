@@ -29,7 +29,7 @@ h1 {
   top: 240px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 570px) {
   body {
     background-image: none;
     background-color: black;
