@@ -1,4 +1,4 @@
-a {  
+a {
   font-size:140%; 
   background-repeat: no-repeat;
   background-position: top left; 
@@ -27,4 +27,19 @@ h1 {
   font-weight: normal;
   position: relative;
   top: 240px;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-image: none;
+    background-color: black;
+  }
+  a:hover {color:#72BA7B; }
+  h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 69;
+    font-weight: normal;
+    position: relative;
+    top: 240px;
+  }
 }

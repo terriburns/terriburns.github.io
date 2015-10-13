@@ -84,10 +84,6 @@ b /*nouns*/
   color:#72BA7B;
 }
 
-/*body {
-  background-color: black;
-}*/
-
 body {
   display: none;
   background-image: url("../img/jhishan.jpg");
@@ -96,6 +92,13 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-image: none;
+    background-color: black;
+  }
 }
 
 /*name*/
