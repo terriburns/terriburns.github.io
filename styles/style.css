@@ -12,7 +12,7 @@ a:hover {color: black; }
 /*this is for the photo background*/
 body {
   display: none;
-  background-image: url("img/internet22.jpg");
+  background-image: url("../img/internet22.jpg");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
