@@ -1,0 +1,126 @@
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC);
+
+.lasvegas {
+  font-family: 'Amatic SC', cursive;
+  font-size:80px;
+  border: none;
+  color: transparent;
+  text-align: center;
+  text-shadow: 
+  0 0 2px rgba(255,255,255,1), 
+  0 0 10px rgba(255,255,255,1), 
+  0 0 20px rgba(255,255,255,1), 
+  0 0 30px rgba(255,255,255,1), 
+  0 0 40px #0489B1, 
+  0 0 70px #0489B1, 
+  0 0 80px #0489B1,
+  0 0 100px #0489B1;
+}
+
+.lasvegas span{
+  animation: blink .3s infinite alternate;
+}
+
+.lasvegas span.delay{
+  animation-duration:6s;
+  animation-delay: 2s;
+  animation-direction: alternate;
+  cubic-bezier(0.5, 0.2, 0.3, 1.0)
+}
+
+.one {
+  color: #F79F81;
+}
+
+.two {
+  color: #819FF7;
+}
+
+.three {
+  color: #F5A9E1;
+}
+
+.four {
+  color: #F3F781;
+}
+
+@keyframes blink {
+  0%   {}
+  50%  {}
+  60%{
+    text-shadow: 
+    0 0 2px rgba(255, 255, 255, .1), 
+    0 0 10px rgba(255, 255, 255, .4);
+
+    text-stroke: 2px rgba(255,255,255,0.05);
+}
+70%{
+  text-shadow: 
+  0 0 2px rgba(255,255,255,1), 
+  0 0 10px rgba(255,255,255,1), 
+  0 0 20px rgba(255,255,255,1), 
+  0 0 30px rgba(255,255,255,1), 
+  0 0 40px #0489B1, 
+  0 0 70px #0489B1, 
+  0 0 80px #0489B1,
+  0 0 100px #0489B1;
+}
+80%{
+  text-shadow: 
+  0 0 2px rgba(255, 255, 255, .1), 
+  0 0 10px rgba(255, 255, 255, .4);
+
+  text-stroke: 2px rgba(255,255,255,0.05);
+}
+100% { 
+  text-shadow: 
+  0 0 2px rgba(255,255,255,1), 
+  0 0 10px rgba(255,255,255,1), 
+  0 0 20px rgba(255,255,255,1), 
+  0 0 30px rgba(255,255,255,1), 
+  0 0 40px #0489B1, 
+  0 0 70px #0489B1, 
+  0 0 80px #0489B1,
+  0 0 100px #0489B1;
+  }
+}
+
+a{
+  color:#A6F9B0;
+}
+
+a:hover, a:active {
+   color:#0489B1;/*light blue*/
+   background-color: none;
+}
+
+b /*nouns*/
+{
+  color:#72BA7B;
+}
+
+body {
+   background-color: black;
+}
+
+/*name*/
+h1 {
+  color: white;
+  font-family: 'Amatic SC', cursive;
+  font-size: 69px;
+  font-weight: 100;
+  font-style: normal;
+  line-height: 110%;
+}
+
+h1:hover {
+  font-weight: bold;
+}
+/*location*/
+h2 {
+  color: white;
+  font-weight: normal;
+  font-family: 'Lato';
+  font-size: 18;
+  line-height: 170%;
+}
