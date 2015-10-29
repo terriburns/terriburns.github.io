@@ -1,0 +1,51 @@
+a {
+  color:white;
+}
+
+a:hover, a:active {
+   color:#0489B1;/*light blue*/
+   background-color: none;
+}
+
+body {
+  display: none;
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  font-family: 'Amatic SC', cursive;
+  font-size: 69px;
+  font-weight: 100;
+  font-style: normal;
+  line-height: 110%;
+  text-decoration:none;
+
+}
+
+h1:hover, h3:hover {
+  font-weight: bold;
+}
+
+h2 {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-weight: normal;
+  color: white;
+  font-family: 'Lato';
+  font-size: 20;
+  line-height: 40px;
+}
+
+h3 {
+  color: #A6F9B0;
+  font-family: 'Lato';
+  font-size: 30px;
+  font-weight: 100;
+  font-style: normal;
+  line-height: 110%;
+}
+
+.back-home {
+  color: #A6F9B0;
+} 
