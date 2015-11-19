@@ -1,7 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Amatic+SC);
 
+#all_content { 
+	padding-top: 220px; /* Make room for the header */
+}
+
 .lasvegas {
-  font-family: 'Amatic SC', cursive;
+  position: fixed; /* fix header */ 
+	width: 100%; /* Fill screen */
+	height: 220px;	/* Adjust with all_content */
+	font-family: 'Amatic SC', cursive;
   font-size:80px;
   border: none;
   color: transparent;
