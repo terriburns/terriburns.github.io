@@ -125,10 +125,18 @@ h2 {
 }
 /*content*/
 h3 {
-  font-weight: normal;
   color: white;
   font-family: 'Lato';
   font-size: 18;
+  font-weight: normal;
+  line-height: 130%;
+}
+
+h4 {
+  color: yellow;
+  font-family: 'Lato';
+  font-size: 24;
+  font-weight: normal;
   line-height: 130%;
 }
 
