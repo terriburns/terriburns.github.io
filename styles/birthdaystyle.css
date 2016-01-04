@@ -1,0 +1,68 @@
+a {
+  color:black;
+}
+
+a:hover, a:active {
+   color:#0489B1;/*light blue*/
+   background-color: none;
+}
+
+b { 
+  color:#AC58FA;
+}
+
+body {
+  display: none;
+  background-color: white;
+}
+
+h1:hover, h3:hover {
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: normal;
+  color: black;
+  font-family: 'Lato';
+  font-size: 20;
+  line-height: 40px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+h3 {
+  color: #2AB27B;
+  font-family: 'Lato';
+  font-size: 30px;
+  font-weight: 100;
+  font-style: normal;
+  line-height: 110%;
+}
+
+img {
+  width:25%;
+  height:20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+#cupcake {
+  background: url(../img/cake.gif) center center;
+  background-size: cover;
+  height: 185px;
+  margin-left:40%;
+  overflow: auto;
+  width: 149px;
+}
+
+#header {
+  overflow: auto;
+  height: 400px;;
+  width: 100%;
+  background: url(../img/drizz.gif) center center;
+}
+
+.tinyletter{
+  font-size:12px;
+}
