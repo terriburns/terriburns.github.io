@@ -7,8 +7,8 @@ a:hover, a:active {
    background-color: none;
 }
 
-b { 
-  color:#AC58FA;
+b {
+  color:#0174DF;
 }
 
 body {
@@ -39,14 +39,6 @@ h3 {
   line-height: 110%;
 }
 
-img {
-  width:25%;
-  height:20%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto
-}
-
 #cupcake {
   background: url(../img/cake.gif) center center;
   background-size: cover;
@@ -57,10 +49,17 @@ img {
 }
 
 #header {
-  overflow: auto;
-  height: 400px;;
-  width: 100%;
   background: url(../img/drizz.gif) center center;
+  height: 400px;;
+  overflow: auto;
+  width: 100%;
+}
+
+#logo {
+  background: url(../img/logo.png) center center;
+  background-repeat:no-repeat;
+  height: 55%;
+  max-width: 100%;
 }
 
 .tinyletter{
