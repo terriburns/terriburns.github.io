@@ -1,0 +1,54 @@
+a {
+  color:black;
+}
+
+a:hover, a:active {
+   color:#0489B1;/*light blue*/
+   background-color: none;
+}
+
+b {
+  color:#0174DF;
+}
+
+body {
+  display: none;
+  background-color: white;
+}
+
+h1:hover, h3:hover {
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: normal;
+  color: black;
+  font-family: 'Lato';
+  font-size: 20;
+  line-height: 40px;
+  text-align: center;
+}
+
+h3 {
+  color: #2AB27B;
+  font-family: 'Lato';
+  font-size: 30px;
+  font-weight: 100;
+  font-style: normal;
+  line-height: 110%;
+}
+
+h4 {
+  color: #F781D8;
+  font-family: 'Lato';
+  font-size: 50px;
+  text-align: center;
+}
+
+#header {
+  background: url(../img/bemine.gif) center center;
+  height: 400px;
+  overflow: auto;
+  width: 100%;
+  background-size: cover;
+}
