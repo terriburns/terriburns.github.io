@@ -58,11 +58,20 @@
       <!--spotify-->
       <iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A0171XsIM2xyeXRr6wsugEI" width="300" height="80" frameborder="0" allowtransparency="true"></iframe>
       <br>
-      <form id="name" action="form_action.asp">
+      <form action="scripts/boyfriend.php" method="post">
+        Which is your favorite movie?
+        <input type="text" name="formMovie" maxlength="50" value="<?=$varMovie;?>">
+
+        What is your name?
+        <input type="text" name="formName" maxlength="50" value="<?=$varName;?>">
+
+        <input type="submit" name="formSubmit" value="Submit">
+      </form>
+      <!--<form id="name" action="form_action.asp">
         First name: <input type="text" name="fname"><br>
         <input type="button" onclick="myFunction()" value="Submit">
       </form>
-      <script src="scripts/boyfriend.js"></script>
+      <script src="scripts/boyfriend.js"></script>-->
       <br>
       <button>ABOUT</button>
         <b>Terri:</b><br>
