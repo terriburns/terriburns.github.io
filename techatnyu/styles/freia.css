@@ -1,0 +1,22 @@
+p {
+  margin-top: 100px;
+  margin-right: 220px;
+  margin-left: 220px;
+  margin-bottom: 50px;
+  font-family: 'Raleway',sans-serif;
+  font-size: 20;
+  color: white;
+
+}
+h1 {
+  font-family: 'Raleway',sans-serif;
+  color: white;
+  font-size: 30;
+}
+html { 
+  background: url(../images/freeee.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
