@@ -1,28 +1,12 @@
 a {
-  text-decoration: none;
-}
-
-p {
-  margin-top: 100px;
-  margin-right: 220px;
-  margin-left: 220px;
-  margin-bottom: 50px;
-  font-family: 'Raleway',sans-serif;
-  font-size: 20;
   color: white;
-
+  text-decoration: underline;
 }
+
 h1 {
-  font-family: 'Raleway',sans-serif;
   color: white;
-  font-size: 50px;
-}
-
-h2 {
   font-family: 'Raleway',sans-serif;
-  color: white;
-  font-size: 30;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 html { 
@@ -31,5 +15,15 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+p {
+  color: white;
+  font-family: 'Raleway',sans-serif;
+  font-size: 20px;
+  margin-bottom: 50px;
+  margin-left: 220px;
+  margin-right: 220px;
+  margin-top: 100px;
 }
 
