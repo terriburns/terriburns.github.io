@@ -12,255 +12,244 @@
     </style>
 
 
-    <link rel = "icon" href = "favicon.ico">
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel = "icon" href = "../img/favicon.ico">
+    <link rel="shortcut icon" href="../img/favicon.ico">
     <title> Drake</title>
     <link rel = "stylesheet" href = "drakestyle.css" type = "text/css" />
 
-    <!--Google analytics-->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-          ga('create', 'UA-60003348-1', 'auto');
-          ga('send', 'pageview');
-        </script>
-
-        <!--Load the AJAX API-->
-        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 
 
-        <!-- NUMBER ONE-->
-        <script type="text/javascript">
-          google.load("visualization", "1", {packages:["corechart"]});
-          google.setOnLoadCallback(drawSeriesChart);
-
-          function drawSeriesChart() {
-
-            var data = google.visualization.arrayToDataTable([
-                ['ID', 'X', 'Y', 'Who'],
-                ['Jesus', 3, 0,'Jesus'],
-                ['Yeezus', 8, 0, 'Yeezus'],
-                ['GOD', 6, 0,'GOD']
-                ]);
-
-            var options = {
-             title: ' ',
-             hAxis: {title: ' '},
-             vAxis: {title: ' '},
-             bubble: {textStyle: {fontSize: 11}}
-            };
-
-            var chart = new google.visualization.BubbleChart(document.getElementById('series_chart_div'));
-            chart.draw(data, options);
-            }
-      </script>
-
-      <!--NUMBER TWO (BELOW)-->
-
-      <!--NUMBER THREE (BELOW)-->
-
-      <!--NUMBER FOUR-->
-      <script type="text/javascript">
-        google.load("visualization", "1", {packages:["corechart"]});
-        google.setOnLoadCallback(drawChart);
-        function drawChart() {
-          var data = google.visualization.arrayToDataTable([
-              ["", "", { role: "style" } ],
-              ["No. of Bands", 10, "#5F04B4"]
-              ]);
-
-          var view = new google.visualization.DataView(data);
-          view.setColumns([0, 1,
-              { calc: "stringify",
-                sourceColumn: 1,
-                type: "string",
-                role: "annotation" },
-                 2]);
-
-          var options = {
-             title: "",
-             bar: {groupWidth: "25%"},
-             legend: { position: "none" },
-          };
-
-          var chart = new google.visualization.ColumnChart(document.getElementById("columnchart_values"));
-          chart.draw(view, options);
-        }
-      </script>
-
-
-     <!--NUMBER FIVE-->
-     <script type="text/javascript"
-        src="https://www.google.com/jsapi?autoload={
-        'modules':[{
-        'name':'visualization',
-        'version':'1',
-        'packages':['corechart']
-           }]
-         }">
-     </script>
-
+    <!-- NUMBER ONE-->
     <script type="text/javascript">
-      google.setOnLoadCallback(drawChart);
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawSeriesChart);
 
-      function drawChart() {
+      function drawSeriesChart() {
+
         var data = google.visualization.arrayToDataTable([
-            ['X', 'MAN'], 
-            ['',  6],
-            ['',  6],
-            ['',  6],
-            ['',  6]
+            ['ID', 'X', 'Y', 'Who'],
+            ['Jesus', 3, 0,'Jesus'],
+            ['Yeezus', 8, 0, 'Yeezus'],
+            ['GOD', 6, 0,'GOD']
             ]);
 
         var options = {
-       title: '',
-       curveType: 'function',
-       legend: { position: 'bottom' }
+title: ' ',
+       hAxis: {title: ' '},
+       vAxis: {title: ' '},
+       bubble: {textStyle: {fontSize: 11}}
         };
 
-        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
-
+        var chart = new google.visualization.BubbleChart(document.getElementById('series_chart_div'));
         chart.draw(data, options);
       }
-     </script>
+</script>
 
-     <!--NUMBER SIX-->
-     <script type="text/javascript">
-       google.load("visualization", "1", {packages:["geochart"]});
-       google.setOnLoadCallback(drawRegionsMap);
+<!--NUMBER TWO (BELOW)-->
 
-       function drawRegionsMap() {
+<!--NUMBER THREE (BELOW)-->
 
-         var data = google.visualization.arrayToDataTable([
-             ['Country', 'Time'],
-             ['United States', 3],
-             ['United Kingdom', 11],
-             ['France', 12],
-             ['Australia', 10]
-             ]);
+<!--NUMBER FOUR-->
+<script type="text/javascript">
+  google.load("visualization", "1", {packages:["corechart"]});
+  google.setOnLoadCallback(drawChart);
+  function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+        ["", "", { role: "style" } ],
+        ["No. of Bands", 10, "#5F04B4"]
+        ]);
 
-         var options = {};
+    var view = new google.visualization.DataView(data);
+    view.setColumns([0, 1,
+        { calc: "stringify",
+sourceColumn: 1,
+type: "string",
+role: "annotation" },
+2]);
 
-         var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+    var options = {
+title: "",
+       bar: {groupWidth: "25%"},
+       legend: { position: "none" },
+    };
 
-         chart.draw(data, options);
-       }
-     </script>
-
-     <!--NUMBER SEVEN (BELOW) -->
-
-     <!--NUMBER EIGHT-->
-     <script type="text/javascript">
-
-       // Load the Visualization API and the piechart package.
-     google.load('visualization', '1.0', {'packages':['corechart']});
-
-     // Set a callback to run when the Google Visualization API is loaded.
-     google.setOnLoadCallback(drawChart);
-
-     // Callback that creates and populates a data table,
-     // instantiates the pie chart, passes in the data and
-     // draws it.
-     function drawChart() {
-
-       // Create the data table.
-       var data = new google.visualization.DataTable();
-       data.addColumn('string', 'Topping');
-       data.addColumn('number', 'Slices');
-       data.addRows([
-
-           ['Legend', 8]
-
-           ]);
-
-       // Set chart options
-       var options = {'title':' ',
-         'width':400,
-         'height':300};
-
-       // Instantiate and draw our chart, passing in some options.
-       var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
-       chart.draw(data, options);
-     }
-   </script>
-
-   <!--NUMBER NINE-->
-   <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-   <script type="text/javascript">
-     google.load("visualization", "1", {packages:["gauge"]});
-     google.setOnLoadCallback(drawChart);
-     function drawChart() {
-
-       var data = google.visualization.arrayToDataTable([
-           ['Label', 'Value'],
-           ['WEDNESDAY', 100],
-           ['NIGHT', 100],
-           ['INTERLUDE',100]
-           ]);
-
-       var options = {
-         width: 300, height: 90,
-         redFrom: 90, redTo: 100,
-         yellowFrom:75, yellowTo: 90,
-         minorTicks: 5
-       };
-
-       var chart = new google.visualization.Gauge(document.getElementById('chart_div3'));
-
-       chart.draw(data, options);
-     }
-   </script>
+    var chart = new google.visualization.ColumnChart(document.getElementById("columnchart_values"));
+    chart.draw(view, options);
+  }
+</script>
 
 
-   <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-   <script type="text/javascript">
-     google.load("visualization", "1", {packages:["gauge"]});
-     google.setOnLoadCallback(drawChart);
-     function drawChart() {
+<!--NUMBER FIVE-->
+<script type="text/javascript"
+  src="https://www.google.com/jsapi?autoload={
+  'modules':[{
+    'name':'visualization',
+      'version':'1',
+      'packages':['corechart']
+  }]
+}">
+</script>
 
-       var data = google.visualization.arrayToDataTable([
-           ['Label', 'Value'],
-           ['MONDAY', 10],
-           ['MORNING', 80],
-           ['HIATUS',50]
-           ]);
+<script type="text/javascript">
+  google.setOnLoadCallback(drawChart);
 
-       var options = {
-       width: 300, height: 90,
+  function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+        ['X', 'MAN'], 
+        ['',  6],
+        ['',  6],
+        ['',  6],
+        ['',  6]
+        ]);
+
+    var options = {
+title: '',
+       curveType: 'function',
+       legend: { position: 'bottom' }
+    };
+
+    var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+    chart.draw(data, options);
+  }
+</script>
+
+<!--NUMBER SIX-->
+<script type="text/javascript">
+  google.load("visualization", "1", {packages:["geochart"]});
+  google.setOnLoadCallback(drawRegionsMap);
+
+  function drawRegionsMap() {
+
+    var data = google.visualization.arrayToDataTable([
+        ['Country', 'Time'],
+        ['United States', 3],
+        ['United Kingdom', 11],
+        ['France', 12],
+        ['Australia', 10]
+        ]);
+
+    var options = {};
+
+    var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+
+    chart.draw(data, options);
+  }
+</script>
+
+<!--NUMBER SEVEN (BELOW) -->
+
+<!--NUMBER EIGHT-->
+<script type="text/javascript">
+
+  // Load the Visualization API and the piechart package.
+google.load('visualization', '1.0', {'packages':['corechart']});
+
+// Set a callback to run when the Google Visualization API is loaded.
+google.setOnLoadCallback(drawChart);
+
+// Callback that creates and populates a data table,
+// instantiates the pie chart, passes in the data and
+// draws it.
+function drawChart() {
+
+  // Create the data table.
+  var data = new google.visualization.DataTable();
+  data.addColumn('string', 'Topping');
+  data.addColumn('number', 'Slices');
+  data.addRows([
+
+      ['Legend', 8]
+
+      ]);
+
+  // Set chart options
+  var options = {'title':' ',
+    'width':400,
+    'height':300};
+
+  // Instantiate and draw our chart, passing in some options.
+  var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+  chart.draw(data, options);
+}
+</script>
+
+<!--NUMBER NINE-->
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+  google.load("visualization", "1", {packages:["gauge"]});
+  google.setOnLoadCallback(drawChart);
+  function drawChart() {
+
+    var data = google.visualization.arrayToDataTable([
+        ['Label', 'Value'],
+        ['WEDNESDAY', 100],
+        ['NIGHT', 100],
+        ['INTERLUDE',100]
+        ]);
+
+    var options = {
+width: 300, height: 90,
        redFrom: 90, redTo: 100,
        yellowFrom:75, yellowTo: 90,
        minorTicks: 5
-       };
+    };
 
-       var chart = new google.visualization.Gauge(document.getElementById('chart_div1'));
+    var chart = new google.visualization.Gauge(document.getElementById('chart_div3'));
 
-       chart.draw(data, options);
-     }
-   </script>
+    chart.draw(data, options);
+  }
+</script>
 
 
-   <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-   <script type="text/javascript">
-     google.load("visualization", "1", {packages:["gauge"]});
-     google.setOnLoadCallback(drawChart);
-     function drawChart() {
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+  google.load("visualization", "1", {packages:["gauge"]});
+  google.setOnLoadCallback(drawChart);
+  function drawChart() {
 
-       var data = google.visualization.arrayToDataTable([
-           ['Label', 'Value'],
-           ['FRIDAY', 30],
-           ['AFTERNOON', 20],
-           ['BREAK',70]
-           ]);
+    var data = google.visualization.arrayToDataTable([
+        ['Label', 'Value'],
+        ['MONDAY', 10],
+        ['MORNING', 80],
+        ['HIATUS',50]
+        ]);
 
-       var options = {
-       width: 300, height: 90,
+    var options = {
+width: 300, height: 90,
        redFrom: 90, redTo: 100,
        yellowFrom:75, yellowTo: 90,
        minorTicks: 5
-       };
+    };
+
+    var chart = new google.visualization.Gauge(document.getElementById('chart_div1'));
+
+    chart.draw(data, options);
+  }
+</script>
+
+
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+  google.load("visualization", "1", {packages:["gauge"]});
+  google.setOnLoadCallback(drawChart);
+  function drawChart() {
+
+    var data = google.visualization.arrayToDataTable([
+        ['Label', 'Value'],
+        ['FRIDAY', 30],
+        ['AFTERNOON', 20],
+        ['BREAK',70]
+        ]);
+
+    var options = {
+width: 300, height: 90,
+       redFrom: 90, redTo: 100,
+       yellowFrom:75, yellowTo: 90,
+       minorTicks: 5
+    };
 
     var chart = new google.visualization.Gauge(document.getElementById('chart_div2'));
 
@@ -289,7 +278,7 @@
 
 
         var options = {
-       title: "PHRASES WITH 'MIGHTY'",
+title: "PHRASES WITH 'MIGHTY'",
        width: 430,
        height: 275,
        bar: {groupWidth: "55%"},
@@ -299,38 +288,38 @@
         var chart = new google.visualization.BarChart(document.getElementById("barchart_values"));
         chart.draw(view, options);
       }
+</script>
+
+<!--NUMBER SIXTEEN (BELOW)-->
+<!--NUMBER SEVENTEEN (BELOW)-->
+
+
+<!--hide/show answers-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $("button").click(function(){
+      $("p").toggle();
+      });
+      });
     </script>
 
-    <!--NUMBER SIXTEEN (BELOW)-->
-    <!--NUMBER SEVENTEEN (BELOW)-->
+  </head>
+
+  <body>
+    <div align = center>
 
 
-    <!--hide/show answers-->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>
-      $(document).ready(function(){
-        $("button").click(function(){
-          $("p").toggle();
-          });
-          });
-        </script>
+      <h5> { NAME THAT DRAKE SONG } </h5>
 
-      </head>
+      <!--spotify-->
+      <iframe src="https://embed.spotify.com/?uri=http://open.spotify.com/album/2bfWH730j0HtAJrNcg1LuP" width="300" height="80" frameborder="0" allowtransparency="true"></iframe>
 
-      <body>
-        <div align = center>
-
-
-          <h5> { NAME THAT DRAKE SONG } </h5>
-
-          <!--spotify-->
-          <iframe src="https://embed.spotify.com/?uri=http://open.spotify.com/album/2bfWH730j0HtAJrNcg1LuP" width="300" height="80" frameborder="0" allowtransparency="true"></iframe>
-
-          <!--ABOUT-->
+      <!--ABOUT-->
       <h1> Last year I discovered Liz Fosslien&#39;s amazing <a class="two" STYLE="text-decoration:none" href="http://fosslien.com/rap/">data viz rendition of rap songs</a>. I thought I&#39;d try something similar for Drake&#39;s <a class="two" STYLE="text-decoration:none" href="https://play.spotify.com/album/6K77I7FVTV0pxUfQikCbxj">If You&#39;re Reading This, It&#39;s Too late</a>.
         <br> All the songs on the mixtape are represented below, answer key at the bottom. Open sourced on <a class="two" STYLE="text-decoration:none" href="https://github.com/terriburns">github</a>, made with <a class="two" STYLE="text-decoration:none" href="https://developers.google.com/chart/">Google Developers</a>.<br>
 
-      <br><br><br></h1>
+        <br><br><br></h1>
 
       <!--TABLE OF CHARTS-->
       <!--NUMBER ONE-->
