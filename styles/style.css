@@ -1,7 +1,8 @@
 a {
   font-size:140%; 
   background-repeat: no-repeat;
-  background-position: top left; 
+  background-position: top left;
+  text-decoration:none;
 }
 
 a:link { color: white; }
@@ -23,10 +24,10 @@ body {
 /*This is for the 'Click to Enter' on landing page*/
 h1 {
   font-family: 'Amatic SC', cursive;
-  font-size: 69;
+  font-size:69;
   font-weight: normal;
   position: relative;
-  top: 240px;
+  top: 220px;
 }
 
 @media screen and (max-width: 570px) {
