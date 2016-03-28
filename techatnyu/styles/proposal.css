@@ -1,38 +1,15 @@
 p {
-	margin-top: 100px;
-	margin-right: 220px;
-	margin-left: 220px;
-	margin-bottom: 50px;
-	font-family: 'Raleway',sans-serif;
-	font-size: 18;
-	color: white;
-	
+  font-size: 18;
+  color: white;
+  font-family: 'Raleway',sans-serif;
+  margin-top: 100px;
+  margin-right: 220px;
+  margin-left: 220px;
+  margin-bottom: 50px;
 }
 
-
-html { 
+html {
   background-color: black;
 }
 
-p1 {
-	font-family: 'Raleway',sans-serif;
-	color: #81DAF5;
-	
-}
-
-p2 {
-	font-family: 'Raleway',sans-serif;
-	color: #DCA3A3;
-	
-}
-
-p3 {
-	font-family: 'Raleway',sans-serif;
-	color: #BFA3DC;
-	
-}
-
-a {
-	color: #81DAF5;
-}
 
