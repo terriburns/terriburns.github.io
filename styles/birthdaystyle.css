@@ -24,7 +24,7 @@ h2 {
   font-weight: normal;
   color: black;
   font-family: 'Lato';
-  font-size: 20;
+  font-size: 16px;
   line-height: 40px;
   margin-left: 20%;
   margin-right: 20%;
@@ -71,6 +71,33 @@ h3 {
   max-width: 100%;
 }
 
+#me {
+  background: url(../img/internet22.jpg) center center;
+  background-repeat:no-repeat;
+  height: 55%;
+  max-width: 100%;
+}
+
+#mvc {
+  background: url(../img/updates/mvc.jpg) center center;
+  background-repeat:no-repeat;
+  height: 55%;
+  max-width: 100%;
+}
+
+#sw {
+  background: url(../img/updates/sw.jpg) center center;
+  background-repeat:no-repeat;
+  height: 55%;
+  max-width: 100%;
+}
+
+#bey {
+  background: url(../img/updates/bey.jpg) center center;
+  background-repeat:no-repeat;
+  height: 55%;
+  max-width: 100%;
+}
 .tinyletter{
   font-size:12px;
 }
