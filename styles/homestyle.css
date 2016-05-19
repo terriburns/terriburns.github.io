@@ -119,7 +119,7 @@ h2 {
   font-weight: normal;
   color: white;
   font-family: 'Lato';
-  font-size: 18;
+  font-size: 18px;
   line-height: 100%;
 
 }
@@ -127,7 +127,7 @@ h2 {
 h3 {
   color: white;
   font-family: 'Lato';
-  font-size: 15px;
+  font-size: 19px;
   font-weight: normal;
   line-height: 130%;
 }

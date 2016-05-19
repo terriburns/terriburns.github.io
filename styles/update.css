@@ -1,0 +1,145 @@
+a {
+  color:#8B7FAB;
+  text-decoration:none;
+}
+
+a:hover, a:active {
+   color:#E77339;
+   background-color: none;
+}
+
+b {
+  color:#0174DF;
+}
+
+body {
+  display: none;
+  background-color: white;
+}
+
+h1 {
+  font-weight: normal;
+  color: black;
+  font-family: 'Lato';
+  font-size: 65px;
+  line-height: 200%;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align:center;
+}
+
+h2 {
+  font-weight: normal;
+  color: black;
+  font-family: 'Lato';
+  font-size: 18px;
+  line-height: 40px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+
+h4 {
+  font-weight: normal;
+  color: red;
+  display:inline;
+  font-family: 'Lato';
+  font-size: 16px;
+  line-height: 40px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+footer {
+  color: black;
+  font-family: 'Lato';
+  font-size: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+i {
+  font-size:15px;
+  text-align:center;
+}
+
+p {
+  display:inline;
+  color:#0174DF;
+}
+
+#header {
+  background: url(../img/updates/rihanna.gif) center center;
+  height: 400px;
+  overflow: auto;
+  width: 100%;
+  background-size: cover;
+}
+
+#dranks {
+  background: url(../img/drizz2.gif) center center;
+  height: 400px;
+  overflow: auto;
+  width: 100%;
+  background-size: cover;
+}
+
+#grad3 {
+  background: url(../img/updates/grad3.jpg) center center;
+  background-repeat:no-repeat;
+  height: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+#grad2 {
+  background: url(../img/updates/grad2.jpg) center center;
+  background-repeat:no-repeat;
+  height: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+#food {
+  background: url(../img/updates/food.png) center center;
+  background-repeat:no-repeat;
+  height: 85%;
+  max-width: 100%;
+}
+#logo {
+  background: url(../img/logo.png) center center;
+  background-repeat:no-repeat;
+  height: 55%;
+  max-width: 100%;
+}
+
+#me {
+  background: url(../img/internet22.jpg) center center;
+  background-repeat:no-repeat;
+  height: 55%;
+  max-width: 100%;
+}
+
+#mvc {
+  background: url(../img/updates/mvc.jpg) center center;
+  background-repeat:no-repeat;
+  height: 55%;
+  max-width: 100%;
+}
+
+#reflection {
+  background: url(../img/updates/test.png) center center;
+  background-repeat:no-repeat;
+  height: 55%;
+  max-width: 100%;
+}
+
+#sw {
+  background: url(../img/updates/sw.jpg) center center;
+  background-repeat:no-repeat;
+  height: 55%;
+  max-width: 100%;
+}
+
+.tinyletter{
+  font-size:12px;
+}
