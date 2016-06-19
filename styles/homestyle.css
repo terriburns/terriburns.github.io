@@ -2,7 +2,7 @@
 
 .lasvegas {
   font-family: 'Amatic SC', cursive;
-  font-size:80px;
+  font-size:65px;
   border: none;
   color: transparent;
   text-align: center;
@@ -111,15 +111,11 @@ h1 {
   line-height: 110%;
 }
 
-h1:hover {
-  font-weight: bold;
-}
-/*location*/
 h2 {
   font-weight: normal;
   color: white;
   font-family: 'Lato';
-  font-size: 28px;
+  font-size: 23px;
   line-height: 100%;
 
 }
