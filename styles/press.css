@@ -1,0 +1,43 @@
+a {
+  color:black;
+}
+
+a:hover, a:active {
+  color:#73D386;
+  background-color: none;
+}
+
+body {
+  display: none;
+  margin:10%;
+}
+
+h1 {
+  font-weight: normal;
+  color: black;
+  font-family: 'Lato';
+  font-size: 22px;
+}
+
+h2 {
+  font-weight: normal;
+  color: black;
+  font-family: 'Lato';
+  font-size: 16px;
+}
+
+h3 {
+  color: #0489B1;
+  font-family: 'Lato';
+  font-size: 30px;
+  font-weight: 100;
+  font-style: normal;
+}
+
+#slash {
+  display:inline;
+  color: #73D386;
+}
+.back-home {
+  color: #73D386;
+} 

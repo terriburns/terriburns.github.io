@@ -1,15 +1,16 @@
 a {
-  color:black;
+  text-decoration:underline;
 }
 
 a:hover, a:active {
-  color:#A6F9B0;
-   background-color: none;
+  color:#73D386;
+  background-color: none;
 }
 
+
 body {
-  display: none;
   margin:10%;
+  margin-right:45%;
 }
 
 h1 {
@@ -29,15 +30,15 @@ h2 {
 h3 {
   color: #0489B1;
   font-family: 'Lato';
-  font-size: 30px;
+  font-size: 16px;
   font-weight: 100;
   font-style: normal;
 }
 
 #slash {
   display:inline;
-  color: #A6F9B0;
+  color: #73D386;
 }
 .back-home {
-  color: #A6F9B0;
+  color: #73D386;
 } 
