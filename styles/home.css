@@ -115,7 +115,7 @@ h2 {
   color: white;
   font-family: 'Lato';
   font-size: 23px;
-  line-height: 100%;
+  line-height: 150%;
 
 }
 /*content*/
@@ -124,15 +124,17 @@ h3 {
   font-family: 'Lato';
   font-size: 22px;
   font-weight: normal;
-  line-height: 130%;
+  line-height: 150%;
 }
 
 /*titles*/
-h4 {
+u {
   color: white;
   font-family: 'Homemade Apple', cursive;
-  font-size: 22px;
+  font-size: 26px;
   font-weight: normal;
+  line-height:50%;
+  text-decoration:none;
 }
 
 .social {
