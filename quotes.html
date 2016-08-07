@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <title>Quotes</title>
+
+    <!--Google font (Lato)-->
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <!--Google font (Homeade Apple)-->
+    <link href='https://fonts.googleapis.com/css?family=Homemade+Apple' rel='stylesheet' type='text/css'>
+
+    <!--styles-->
+    <link rel = "stylesheet" href = "styles/quotes.css" type = "text/css" />
+
+    <!--load javascript for fade in effect-->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+          $("body").css("display", "none");
+          });
+    </script>
+
+    <script src = "jquery-2.1.1.js"></script>
+    <script>
+      $(function(){
+        //code
+        });
+    </script>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+          $("body").css("display", "none");
+          $("body").fadeIn(2000);
+          });
+      </script>
+
+      <script>
+        function quotes(){
+          var listOfQuotes = ['"These are the things I feel online: A paranoid lust for the gaze of strangers. Hope. Excitement. Fear. The opaque, agnostic wondering of an unrequited DM and the guilt of an unread tab. Mania in the dopamine fave loop. The letting-go spiral of going viral, scattering your narrative to the cyberwinds (BuzzFeed take the wheel). Warmth from the candles of a table-for-two email. Circuitous integration with a zeitgeist. The sleepover-party-sleeping-bag whisper of night Twitter, a nauseous momentum from scrolling, scrolling, scrolling, and a million kinds of unfocused love for a network that somehow manages to be boundaryless yet intimate."<br> <a href="http://t.umblr.com/redirect?z=http%3A%2F%2Fmotherboard.vice.com%2Fread%2Fnegotiations-at-the-irlurl-border&t=M2IxODg2M2ZmY2NlOTVhMmEzY2U5NmI2ZDJmOGMwNWNiZWM0YTYzMCxvbkt2UFFPTA%3D%3D">negotiations at the irl/url border</a>', 
+          'Terri is great', 
+          'Stay away from all fuckboys'];
+          var randomIndex = Math.floor(Math.random() * listOfQuotes.length);
+          document.getElementById('quotes').innerHTML = '<h3>' + listOfQuotes[randomIndex] + '</h3>';
+         }
+       </script>
+
+  </head> 
+  <body>
+    <h1>a collection of things i've read and loved on the internet</h1>
+    <h2>(click the quote to see a new one)</h2>
+    <div id="quotes" onclick="quotes()">
+      <h3>[[click here]]</h3>
+    </div>
+    <h2>
+      <br>Click <a class="back-home" href="home.html" style="text-decoration:none">here</a> to go back home.
+    </h2>
+</body>
+</html>

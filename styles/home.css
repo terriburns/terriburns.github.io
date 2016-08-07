@@ -1,8 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Amatic+SC);
-
 .lasvegas {
   font-family: 'Amatic SC', cursive;
-  font-size:65px;
+  font-size:100px;
   border: none;
   color: transparent;
   text-align: center;
@@ -126,6 +125,14 @@ h3 {
   font-size: 22px;
   font-weight: normal;
   line-height: 130%;
+}
+
+/*titles*/
+h4 {
+  color: white;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 22px;
+  font-weight: normal;
 }
 
 .social {

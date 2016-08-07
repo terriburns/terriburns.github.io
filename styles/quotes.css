@@ -1,5 +1,8 @@
 a {
   color:black;
+  font-style:italic;
+  font-family: 'Homemade Apple', cursive;
+  text-decoration:none;
 }
 
 a:hover, a:active {
@@ -28,18 +31,14 @@ h2 {
 
 h3 {
   color: #0489B1;
-  font-size: 30px;
+  font-family: 'Lato';
+  font-size: 17px;
   font-weight: 100;
   font-style: normal;
-  font-family: 'Homemade Apple', cursive;
-}
-
-#slash {
-  display:inline;
-  color: #73D386;
+  line-height:40px;
 }
 
 .back-home {
   color: #73D386;
-  font-family: 'Homemade Apple', cursive;
+  font-style:normal;
 } 
