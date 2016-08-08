@@ -13,36 +13,62 @@
 
     <!--load javascript for fade in effect-->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
-
     <script type="text/javascript">
       $(document).ready(function() {
           $("body").css("display", "none");
           });
     </script>
-
-    <script src = "jquery-2.1.1.js"></script>
-    <script>
-      $(function(){
-        //code
-        });
-    </script>
-
     <script type="text/javascript">
       $(document).ready(function() {
           $("body").css("display", "none");
           $("body").fadeIn(2000);
           });
-      </script>
-
-      <script>
-        function quotes(){
-          var listOfQuotes = ['"These are the things I feel online: A paranoid lust for the gaze of strangers. Hope. Excitement. Fear. The opaque, agnostic wondering of an unrequited DM and the guilt of an unread tab. Mania in the dopamine fave loop. The letting-go spiral of going viral, scattering your narrative to the cyberwinds (BuzzFeed take the wheel). Warmth from the candles of a table-for-two email. Circuitous integration with a zeitgeist. The sleepover-party-sleeping-bag whisper of night Twitter, a nauseous momentum from scrolling, scrolling, scrolling, and a million kinds of unfocused love for a network that somehow manages to be boundaryless yet intimate."<br> <a href="http://t.umblr.com/redirect?z=http%3A%2F%2Fmotherboard.vice.com%2Fread%2Fnegotiations-at-the-irlurl-border&t=M2IxODg2M2ZmY2NlOTVhMmEzY2U5NmI2ZDJmOGMwNWNiZWM0YTYzMCxvbkt2UFFPTA%3D%3D">negotiations at the irl/url border</a>', 
-          'Terri is great', 
-          'Stay away from all fuckboys'];
-          var randomIndex = Math.floor(Math.random() * listOfQuotes.length);
+    </script>
+    <script>
+        var last;
+      function quotes(){
+        var listOfQuotes = ['"These are the things I feel online: A paranoid lust for the gaze of strangers. Hope. Excitement. Fear. The opaque, agnostic wondering of an unrequited DM and the guilt of an unread tab. Mania in the dopamine fave loop. The letting-go spiral of going viral, scattering your narrative to the cyberwinds (BuzzFeed take the wheel). Warmth from the candles of a table-for-two email. Circuitous integration with a zeitgeist. The sleepover-party-sleeping-bag whisper of night Twitter, a nauseous momentum from scrolling, scrolling, scrolling, and a million kinds of unfocused love for a network that somehow manages to be boundaryless yet intimate."<br> <a href="http://t.umblr.com/redirect?z=http%3A%2F%2Fmotherboard.vice.com%2Fread%2Fnegotiations-at-the-irlurl-border&t=M2IxODg2M2ZmY2NlOTVhMmEzY2U5NmI2ZDJmOGMwNWNiZWM0YTYzMCxvbkt2UFFPTA%3D%3D">negotiations at the irl/url border</a>', 
+        '"There was something miraculous in caring about someone so deeply in an age where it&#39;s considered wise to appear to care about nothing at all. It occurred to me then, in the trenches of my blankets, enveloped by Netflix and surrounded by bunched clouds of Kleenex, that this was love.<br>Then I downloaded Tinder."<br><a href="http://www.nytimes.com/2015/05/17/style/swearing-off-the-modern-man.html">swearing off the modern man</a>',
+        '"We often think of online activism as a shallow bid for fleeting attention, but the movement that Mckesson is helping to lead has been able to sustain the country&#39;s focus and reach millions of people. Among many black Americans, long accustomed to mistreatment or worse at the hands of the police, the past year has brought on an incalculable sense of anger and despair. For the nation as a whole, we have come to learn the names of the victims - Eric Garner, Tamir Rice, Tony Robinson, Walter Scott, Freddie Gray - because the activists have linked their fates together in our minds, despite their separation by many weeks and thousands of miles."<br><a href="http://www.nytimes.com/2015/05/10/magazine/our-demand-is-simple-stop-killing-us.html?gwh=0C54D6AB947F4118CC7BBD137728A82C&gwt=pay&assetType=nyt_now&_r=0">our demand is simple: stop killing us</a>',
+        '"You beat your highest Candy Crush score without a single cheat, and, later that day, though you&#39;re sure you&#39;re imagining it, people treat you with a little more respect."<br><a href="http://t.umblr.com/redirect?z=http%3A%2F%2Fnyr.kr%2F1wuLcZW&t=ZjM1ZDMzYjNjMDE5N2Q4NWVmMTQ2MWIxYTMyMWY4N2MxOGM4N2I2NCxSVHh2RWthQg%3D%3D">the secret fantasies of adults</a>',
+        '"A couple of decades earlier, all these people might have instead been inundating Drake&#39;s fan club headquarters with self-addressed stamped envelopes, hoping for an autographed headshot. But celebrity fandom has migrated, quite happily, from lockers and bedroom walls to our smartphones - and into the grown-up world more broadly."<br><a href="link">drizzy and the new celebrity worship</a>',
+        '"As an educator, researcher, and activist, I often think about what more our schools can do to serve all of our nation&#39;s youth, to mitigate inequality, and to ensure that all students feel visible, safe, engaged, and accepted at school. I reflect upon what we can do to begin to heal from the pain of the past and the pain of the present like Freddie Gray&#39;s murder. I ask myself how we can create the safe and nurturing spaces that will enable students of all backgrounds to help solve the world&#39;s problems, instead of becoming victim to them."<br><a href="https://medium.com/bright/baltimore-rising-baltimore-healing-3d83d14b56bb">baltimore rising, baltimore healing</a>',
+        '"This file is Good Code. It has sensible and consistent names for functions and variables. It&#39;s concise. It doesn&#39;t do anything obviously stupid. It has never had to live in the wild, or answer to a sales team. It does exactly one, mundane, specific thing, and it does it well. It was written by a single person, and never touched by another. It reads like poetry written by someone over thirty."<br><a href="http://www.stilldrinking.org/programming-sucks">programming sucks</a>',
+        '"Is idealism truly that desperate here that we equally applaud free wifi in Africa and a $1,500 smart oven that &#39;smart&#39; preheats your soylent to save you a little extra time for cross-fit and netflix?"<br><a href="https://medium.com/@jenniferdaniel/a-new-yorker-walks-into-a-san-francisco-start-up-6926651b8254#.s1bozsrlq">a new yorker walks into a san francisco start up...</a>',
+        '"A few ask if I feel guilty for surviving. Uh, no. I did everything I could to survive. Do you think I should feel guilty for surviving? Do you feel guilty that on 9/11 you weren&#39;t in one of the Twin Towers?"<br><a href="https://medium.com/matter/everything-is-yours-everything-is-not-yours-d6f66bd9c6f9">everything is yours/everything is not yours</a>',
+        '"Black girls are some of the least protected people in this country. We don&#39;t come close to being as viewed as worthy of defending as white women do, so it&#39;s easy to harass us without consequence."<br><a href="http://www.rookiemag.com/2015/06/black-girls/">the right to be a black girl</a>',
+        '"Logic has nothing to do with oppression."<br><a href="http://www.haverford.edu/psychology/ddavis/p109g/steinem.menstruate.html">if men could menstruate</a>',
+        '"No celebrity understands the mechanisms of Internet obsession better than Drake."<br><a href="http://www.nytimes.com/2015/10/24/arts/music/drake-rapper-actor-meme.html?smid=tw-nytimes&smtyp=cur">drake: rapper, actor, meme</a>',
+        '"I don&#39;t know why I&#39;ve got so much hope pinned to someone who will never call me home, but the way you talk about poems like Marxists talk of revolution it makes me want to keep trying. In the mornings, in my shower drain, in the music, I am looking for reasons to love you. I am looking for proof that you love me."<br><a href="https://medium.com/human-parts/ten-love-letters-b38f4dd7808d#.4osp7jgbn">ten love letters</a>',
+        '"But all the same, isn&#39;t it a little rude to get a text from a woman you&#39;ve been dating for two weeks and not even acknowledge it? How hard can it be to fire off a blushing smiley emoji or a four-word answer? He didn&#39;t even need to reciprocate the sexual innuendo (though it would have been appreciated). He could have just said, &#39;Nice.&#39; <br>(Scrap that. &#39;Nice&#39; would have been way worse. If he had texted &#39;Nice,&#39; I would have thrown myself into the sea.)"<br><a href="http://www.nytimes.com/2015/11/22/fashion/the-five-stages-of-ghosting-grief.html">the five stages of ghosting grief</a>',
+        '"When you have the urge to text him, floss your teeth instead. Stop checking social media for signs that he misses you, you will not find what you&#39;re looking for."<br><a href="http://omgstephlol.tumblr.com/post/132961857745/how-do-you-let-someone-go-who-has-already-let-you#notes">how do you let someone go who has already let you go?</a>',
+        '"Doing the disgusting dishes knowing they&#39;re only 60% disgusting because you&#39;re the sole person who&#39;s used them and you know their origin stories"<br><a href="http://omgstephlol.tumblr.com/post/135142705370/the-new-testament">living alone means</a>',
+        '"Gender Identity" <br> Gender, what am I? <br>Wait, what is gender even? <br>Fill in the checkbox <br><a href="http://tcburning.tumblr.com/post/135267799332/haikus-by-my-friend-jhishan-pregnancy-when-you">haikus by jhishan</a>',
+        '"But rediscovering a special kind of female magic that is thick and all-encompassing, supportive and blunt in its realness that eventually gives way to a connection that goes beyond brunch once a month or obligatory catch-up drinks after work"<br><a href="http://t.umblr.com/redirect?z=http%3A%2F%2Fthehairpin.com%2F2013%2F12%2Fa-particular-kind-of-self-care-to-a-year-of-female-friendships%2F&t=OTI0ZjM5OTdkNDAxY2JjODMyMzBkNTE1OGZmZDMwZTJlNzEyNzhiMyxOTXhYeTZTWg%3D%3D">a particular kind of self-care: to a year of female friendships</a>',
+        '"I am not sure that it is possible for anyone brought up in the East to appreciate entirely what New York, the idea of New York, means to those of us who came out of the West and the South. To an Eastern child, particularly a child who has always has an uncle on Wall Street and who has spent several hundred Saturdays first at F.A.O. Schwarz and being fitted for shoes at Best&#39;s and then waiting under the Biltmore clock and dancing to Lester Lanin, New York is just a city, albeit the city, a plausible place for people to live, But to those of us who came from places where no one had heard of Lester Lanin and Grand Central Station was a Saturday radio program, where Wall Street and Fifth Avenue and Madison Avenue were not places at all but abstractions (&#39;Money,&#39; and &#39;High Fashion,&#39; and &#39;The Hucksters&#39;), New York was no mere city. It was instead an infinitely romantic notion, the mysterious nexus of all love and money and power, the shining and perishable dream itself. To think of &#39;living&#39; there was to reduce the miraculous to the mundane; one does not &#39;live&#39; at Xanadu."<br><a href="http://juliaallison.com/goodbye-to-all-that-by-joan-didion/">goodbye to tall that</a>',
+        '"When someone dies, we go searching for poetry. When a new chapter of life starts or ends - graduations, weddings, inaugurations, funerals - we insist on poetry. The occasion for poetry is always a grand one, leaving us little people with our little lives bereft of elegies and love poems."<br><a href="http://www.poetryfoundation.org/poetrymagazine/article/250614?utm_campaign=eaed58dd24-How_about_some_tennis1_17_2016">how it feels</a>',
+        '"The price we pay for living full authentic lives is occasionally having our hearts broken."<br><a href="https://medium.com/in-context/these-grey-days-20325a2e423c#.p5jgcq6bl">these grey days</a>',
+        '"Suicide is a permanent solution to a temporary problem and it deeply affects your loved ones, for the rest of their lives. All problems are either fixable or you learn and grow from them. My experience as a suicide survivor has taught me that we can fix everything, even if insufficiently, except death."<br><a href="https://medium.com/in-context/my-suicide-survivor-story-2e48b167c5ab#.ctpk9dv4e">my suicide survivor story</a>',
+        '"When I realized that New York was a cesspit filled with the viscera of broken dreams, I decided that the time had come for me to move to beautiful, sunny Los Angeles."<br><a href="http://www.newyorker.com/magazine/2016/02/01/n-y-c-to-l-a-to-n-y-c-to-l-a-ad-infinitum">n.y.c. to l.a. to n.y.c. to l.a., ad infinitum</a>',
+        '"Sometimes, when I open a magazine and find yet another intelligently researched piece of journalism or brilliant social analysis in the form of a book review, I think: &#39;What beauty!&#39; And then, almost immediately afterward, I think, &#39;Could I offer the world something so useful and beautiful?&#39; <br>This habit - one of the great ongoing difficulties of my work - is envy, and it&#39;s proving a hard habit to break."<br><a href="http://www.nytimes.com/2016/01/31/books/review/green-eyed-verbs.html">green-eyed verbs</a>',
+        '"My love is not diminished if I let go of sorrow. I almost believe that."<br><a href="link">title</a>',
+        '"Quote"<br><a href="link">title</a>',
+        '"Quote"<br><a href="link">title</a>'];
+        var randomIndex = Math.floor(Math.random() * listOfQuotes.length);
+        /*This method decreases the likelihood of two of the same quotes showing consecutively*/
+        //if the last index referenced is the same as the current index referenced...
+        if(last === randomIndex){
+          //regenerate the random index (note --> can possibly generate the same index again, but this is less likely)
+          randomIndex = Math.floor(Math.random() * listOfQuotes.length);
+          last = randomIndex;
+        }
+        //if the last index referenced is not the same as the current index referenced, we goooooood
+        else {
+          last = randomIndex;
           document.getElementById('quotes').innerHTML = '<h3>' + listOfQuotes[randomIndex] + '</h3>';
-         }
-       </script>
+        }
+       }
+     </script>
 
   </head> 
   <body>
@@ -53,8 +79,8 @@
     <div id="quotes" onclick="quotes()">
       <h3>[[click here]]</h3>
     </div>
+    -->
     <h2>
-      -->
       <br>Click <a class="back-home" href="home.html" style="text-decoration:none">here</a> to go back home.
     </h2>
 </body>
