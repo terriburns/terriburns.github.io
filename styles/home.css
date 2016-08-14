@@ -93,10 +93,36 @@ body {
   background-size: cover;
 }
 
-@media screen and (max-width: 500px) {
+
+/*iphone 5*/
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
   body {
     background-image: none;
     background-color: black;
+    font-size: 150px;
+}
+}
+
+/*iphone 6*/
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2){
+  body {
+    background-image: none;
+    background-color: black;
+    font-size: 150px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-image: none;
+    background-color: black;
+    font-size: 150px;
   }
 }
 
