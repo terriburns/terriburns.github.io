@@ -1,5 +1,5 @@
 a {
-  font-size:140%; 
+  font-size:180%; 
   background-repeat: no-repeat;
   background-position: top left;
   text-decoration:none;
@@ -24,23 +24,45 @@ body {
 /*This is for the 'Click to Enter' on landing page*/
 h1 {
   font-family: 'Amatic SC', cursive;
-  font-size:69;
+  font-size:69px;
   font-weight: normal;
   position: relative;
   top: 220px;
 }
-
-@media screen and (max-width: 570px) {
+/*iphone 5*/
+@media only screen
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
   body {
     background-image: none;
     background-color: black;
   }
-  a:hover {color:#72BA7B; }
-  h1 {
-    font-family: 'Amatic SC', cursive;
-    font-size: 69;
-    font-weight: normal;
-    position: relative;
-    top: 240px;
+  a{
+    color:#A6F9B0!important;
+  }
+}
+
+/*iphone 6*/
+@media only screen
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2){
+  body {
+    background-image: none;
+    background-color: black;
+  }
+  a{
+    color:#A6F9B0!important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-image: none;
+    background-color: black;
+  }
+  a{
+    color:#A6F9B0!important;
   }
 }

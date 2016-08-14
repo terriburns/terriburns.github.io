@@ -43,3 +43,38 @@ h3 {
   color: #73D386;
   font-family: 'Homemade Apple', cursive;
 } 
+
+/*iphone 5*/
+@media only screen
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    font-size: 160%!important;
+  }
+  h1 h2 h3 {
+    font-size: 160%!important;
+  }
+}
+
+/*iphone 6*/
+@media only screen
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2){
+  body {
+    font-size: 160%!important;
+  }
+  h1 h2 h3 {
+    font-size: 160%!important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 160%!important;
+  }
+  h1 h2 h3 {
+    font-size: 160%!important;
+  }
+}
