@@ -52,8 +52,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
   body {
     font-size: 160%!important;
   }
-  h1 h2 h3 {
+  h1, h3 {
     font-size: 160%!important;
+  }
+  h2 {
+    font-size: 110%!important;
   }
 }
 
@@ -65,8 +68,11 @@ and (-webkit-min-device-pixel-ratio: 2){
   body {
     font-size: 160%!important;
   }
-  h1 h2 h3 {
+  h1, h3 {
     font-size: 160%!important;
+  }
+  h2 {
+    font-size: 110%!important;
   }
 }
 
@@ -74,7 +80,11 @@ and (-webkit-min-device-pixel-ratio: 2){
   body {
     font-size: 160%!important;
   }
-  h1 h2 h3 {
+  h1, h3 {
     font-size: 160%!important;
   }
+  h2 {
+    font-size: 110%!important;
+  }
 }
+
