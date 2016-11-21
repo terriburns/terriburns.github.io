@@ -1,0 +1,198 @@
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC);
+.lasvegas {
+  border: none;
+  color: transparent;
+  font-family: 'Amatic SC', cursive;
+  margin-right: 7%;
+  text-align: right;
+  text-shadow: 
+  0 0 2px rgba(255,255,255,1), 
+  0 0 10px rgba(255,255,255,1), 
+  0 0 20px rgba(255,255,255,1), 
+  0 0 30px rgba(255,255,255,1), 
+  0 0 40px #FFFFFF, 
+  0 0 70px #FFFFFF, 
+  0 0 80px #FFFFFF,
+  0 0 100px #FFFFFF;
+}
+
+.lasvegas span{
+  animation: blink .9s infinite alternate;
+}
+
+.lasvegas span.delay{
+  animation-duration:4s;
+  animation-delay: 1s;
+  animation-direction: alternate;
+  cubic-bezier(0.5, 0.2, 0.3, 1.0)
+}
+
+@keyframes blink {
+  0%   {}
+  50%  {}
+  60%{
+    text-shadow: 
+    0 0 2px rgba(255, 255, 255, .1), 
+    0 0 10px rgba(255, 255, 255, .4);
+
+    text-stroke: 2px rgba(255,255,255,0.05);
+}
+
+70%{
+  text-shadow: 
+  0 0 2px rgba(255,255,255,1), 
+  0 0 10px rgba(255,255,255,1), 
+  0 0 20px rgba(255,255,255,1), 
+  0 0 30px rgba(255,255,255,1), 
+  0 0 40px #FFFFFF, 
+  0 0 70px #FFFFFF, 
+  0 0 80px #FFFFFF,
+  0 0 100px #FFFFFF;
+}
+
+80%{
+  text-shadow: 
+  0 0 2px rgba(255, 255, 255, .1), 
+  0 0 10px rgba(255, 255, 255, .4);
+  text-stroke: 2px rgba(255,255,255,0.05);
+}
+
+100% { 
+  text-shadow: 
+  0 0 2px rgba(255,255,255,1), 
+  0 0 10px rgba(255,255,255,1), 
+  0 0 20px rgba(255,255,255,1), 
+  0 0 30px rgba(255,255,255,1), 
+  0 0 40px #FFFFFF, 
+  0 0 70px #FFFFFF, 
+  0 0 80px #FFFFFF,
+  0 0 100px #FFFFFF;
+}
+}
+
+a{
+  color:white;
+}
+
+a:hover, a:active {
+   color:#0489B1;/*light blue*/
+   background-color: none;
+}
+
+b /*nouns*/
+{
+  color:#72BA7B;
+}
+
+body {
+  display: none;
+  background-image: url("../img/danitest.jpg");
+  background-color: #000000; /*if img doesn't load*/
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#all_content {
+      background-size: 100% auto; /* width and height, can be %, px or whatever. */
+    }
+
+/*iphone 5*/
+@media only screen
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    background-image: none;
+    background-color: black;
+    font-size: 160%!important;
+  }
+  h3 {
+    font-size: 160%!important;
+  }
+}
+
+/*iphone 6*/
+@media only screen
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2){
+  body {
+    background-image: none;
+    background-color: black;
+    font-size: 160%!important;
+  }
+  h3 {
+    font-size: 160%!important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-image: none;
+    background-color: black;
+    font-size: 160%!important;
+  }
+  h3 {
+    font-size: 160%!important;
+  }
+}
+
+/*name*/
+h1 {
+  color: white;
+  font-family: 'Amatic SC', cursive;
+  font-size: 95px;
+  font-weight: 100;
+  line-height: 110%;
+  margin-bottom:0;
+}
+
+/*intro*/
+h2 {
+  font-weight: normal;
+  color: white;
+  font-family: 'Lato';
+  line-height: 150%;
+  margin-right: 7%;
+}
+
+/*content*/
+h3 {
+  color: white;
+  font-family: 'Lato';
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 150%;
+}
+
+/*subtitle*/
+h4 {
+  color: white;
+  font-family: 'Lato';
+  font-size: 35px;
+  line-height: 1%;
+}
+
+h5 {
+  color: white;
+  font-size:16px;
+  font-weight: normal;
+}
+
+/*titles*/
+u {
+  color: white;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 26px;
+  font-weight: normal;
+  line-height:50%;
+  text-decoration:none; /*this is horrible of me i know*/
+}
+
+
+.social {
+  color:#A6F9B0;
+}

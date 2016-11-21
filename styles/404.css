@@ -1,126 +1,68 @@
-@import url(http://fonts.googleapis.com/css?family=Amatic+SC);
+a {
+  font-size:180%; 
+  background-repeat: no-repeat;
+  background-position: top left;
+  text-decoration:none;
+}
 
-.lasvegas {
+a:link { color: white; }
+a:active { color: white; }
+a:visited { color: white; }
+a:hover {color: black; }
+
+/*this is for the photo background*/
+body {
+  display: none;
+  background-image: url("../img/danigrant.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*This is for the 'Click to Enter' on landing page*/
+h1 {
   font-family: 'Amatic SC', cursive;
-  font-size:80px;
-  border: none;
-  color: transparent;
-  text-align: center;
-  text-shadow: 
-  0 0 2px rgba(255,255,255,1), 
-  0 0 10px rgba(255,255,255,1), 
-  0 0 20px rgba(255,255,255,1), 
-  0 0 30px rgba(255,255,255,1), 
-  0 0 40px #0489B1, 
-  0 0 70px #0489B1, 
-  0 0 80px #0489B1,
-  0 0 100px #0489B1;
+  font-size:69px;
+  font-weight: normal;
+  position: relative;
+  top: 220px;
 }
-
-.lasvegas span{
-  animation: blink .3s infinite alternate;
-}
-
-.lasvegas span.delay{
-  animation-duration:6s;
-  animation-delay: 2s;
-  animation-direction: alternate;
-  cubic-bezier(0.5, 0.2, 0.3, 1.0)
-}
-
-.one {
-  color: #F79F81;
-}
-
-.two {
-  color: #819FF7;
-}
-
-.three {
-  color: #F5A9E1;
-}
-
-.four {
-  color: #F3F781;
-}
-
-@keyframes blink {
-  0%   {}
-  50%  {}
-  60%{
-    text-shadow: 
-    0 0 2px rgba(255, 255, 255, .1), 
-    0 0 10px rgba(255, 255, 255, .4);
-
-    text-stroke: 2px rgba(255,255,255,0.05);
-}
-70%{
-  text-shadow: 
-  0 0 2px rgba(255,255,255,1), 
-  0 0 10px rgba(255,255,255,1), 
-  0 0 20px rgba(255,255,255,1), 
-  0 0 30px rgba(255,255,255,1), 
-  0 0 40px #0489B1, 
-  0 0 70px #0489B1, 
-  0 0 80px #0489B1,
-  0 0 100px #0489B1;
-}
-80%{
-  text-shadow: 
-  0 0 2px rgba(255, 255, 255, .1), 
-  0 0 10px rgba(255, 255, 255, .4);
-
-  text-stroke: 2px rgba(255,255,255,0.05);
-}
-100% { 
-  text-shadow: 
-  0 0 2px rgba(255,255,255,1), 
-  0 0 10px rgba(255,255,255,1), 
-  0 0 20px rgba(255,255,255,1), 
-  0 0 30px rgba(255,255,255,1), 
-  0 0 40px #0489B1, 
-  0 0 70px #0489B1, 
-  0 0 80px #0489B1,
-  0 0 100px #0489B1;
+/*iphone 5*/
+@media only screen
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    background-image: none;
+    background-color: black;
+  }
+  a{
+    color:#A6F9B0!important;
   }
 }
 
-a{
-  color:#A6F9B0;
+/*iphone 6*/
+@media only screen
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2){
+  body {
+    background-image: none;
+    background-color: black;
+  }
+  a{
+    color:#A6F9B0!important;
+  }
 }
 
-a:hover, a:active {
-   color:#0489B1;/*light blue*/
-   background-color: none;
-}
-
-b /*nouns*/
-{
-  color:#72BA7B;
-}
-
-body {
-   background-color: black;
-}
-
-/*name*/
-h1 {
-  color: white;
-  font-family: 'Amatic SC', cursive;
-  font-size: 69px;
-  font-weight: 100;
-  font-style: normal;
-  line-height: 110%;
-}
-
-h1:hover {
-  font-weight: bold;
-}
-/*location*/
-h2 {
-  color: white;
-  font-weight: normal;
-  font-family: 'Lato';
-  font-size: 18;
-  line-height: 170%;
+@media screen and (max-width: 600px) {
+  body {
+    background-image: none;
+    background-color: black;
+  }
+  a{
+    color:#A6F9B0!important;
+  }
 }
