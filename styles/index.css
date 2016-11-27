@@ -192,6 +192,10 @@ u {
   text-decoration:none; /*this is horrible of me i know*/
 }
 
+.imp {
+  color:#A6F9B0;
+  font-size:145%;
+}
 
 .social {
   color:#A6F9B0;

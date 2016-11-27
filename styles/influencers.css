@@ -1,0 +1,110 @@
+a {
+  text-decoration:underline;
+  color:black;
+}
+
+a:hover, a:active {
+  color:#73D386;
+  background-color: none;
+}
+
+
+#wrapper {
+  margin:10%;
+  margin-right:45%;
+}
+
+h1 {
+  font-weight: normal;
+  color: black;
+  font-family: 'Lato';
+  font-size: 22px;
+}
+
+h2 {
+  font-weight: normal;
+  color: black;
+  font-family: 'Lato';
+  font-size: 16px;
+}
+
+h3 {
+  color: #0489B1;
+  font-family: 'Lato';
+  font-size: 16px;
+  font-weight: 100;
+  font-style: normal;
+}
+
+#header {
+  background: url(../img/drizz.gif) center center;
+  height: 400px;
+  overflow: auto;
+  width: 100%;
+  background-size: cover;
+}
+
+#slash {
+  display:inline;
+  color: #73D386;
+}
+
+.back-home {
+  color: #73D386;
+  font-family: 'Homemade Apple', cursive;
+}
+
+/*iphone 5*/
+@media only screen
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    font-size: 160%!important;
+    margin-right:5%;
+  }
+  h1, h3 {
+    font-size: 160%!important;
+  }
+  h2 {
+    font-size: 110%!important;
+  }
+}
+#header {
+  background: url(../img/drizz.gif) center center;
+  height: 400px;
+  overflow: auto;
+  width: 100%;
+  background-size: cover;
+}
+
+/*iphone 6*/
+@media only screen
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2){
+  body {
+    font-size: 160%!important;
+    margin-right:5%;
+  }
+  h1, h3 {
+    font-size: 160%!important;
+  }
+  h2 {
+    font-size: 110%!important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 160%!important;
+    margin-right:5%;
+  }
+  h1 {
+    font-size: 160%!important;
+  }
+  h2, h3 {
+    font-size: 100%!important;
+  }
+}
+
