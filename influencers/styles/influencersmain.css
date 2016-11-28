@@ -1,5 +1,5 @@
 a {
-  color:white;
+  color:black;
   text-decoration:none;
 }
 
@@ -10,7 +10,7 @@ a:hover, a:active {
 
 body {
   display: none;
-  background-image: url("../../img/influencers/one.jpg");
+  background-image: url("../../img/influencers/ok.jpg");
   background-color: #FFFFFF; /*if img doesn't load*/
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -21,14 +21,14 @@ body {
 
 h1 {
   font-weight: normal;
-  color: white;
+  color: black;
   font-family: 'Lato';
   font-size: 24px;
 }
 
 h2 {
   font-weight: normal;
-  color: white;
+  color: black;
   font-family: 'Lato';
   font-size: 20px;
   line-height:30px;
@@ -41,14 +41,6 @@ h3 {
   font-weight: 100;
   font-style: normal;
   line-height:40px;
-}
-
-#header {
-  background: url(../../img/influencers/test.gif) center center;
-  height: 400px;
-  overflow: auto;
-  width: 100%;
-  background-size: cover;
 }
 
 #wrapper {

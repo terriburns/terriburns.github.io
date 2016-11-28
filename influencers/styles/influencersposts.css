@@ -1,0 +1,106 @@
+a {
+  color:black;
+  text-decoration:underline;
+}
+
+a:hover, a:active {
+  color:#73D386;
+  background-color: none;
+}
+
+body {
+  display: none;
+}
+
+h1 {
+  font-weight: normal;
+  color: black;
+  font-family: 'Lato';
+  font-size: 24px;
+}
+
+h2 {
+  font-weight: normal;
+  color: black;
+  font-family: 'Lato';
+  font-size: 20px;
+  line-height:30px;
+}
+
+h3 {
+  color: #0489B1;
+  font-family: 'Lato';
+  font-size: 18px;
+  font-weight: 100;
+  font-style: normal;
+  line-height:40px;
+}
+
+#header {
+  background: url(../../img/influencers/test.gif) center center;
+  height: 400px;
+  overflow: auto;
+  width: 100%;
+  background-size: cover;
+}
+
+#wrapper {
+  margin:10%;
+  margin-top:4%;
+}
+
+.back-home {
+  color: #73D386;
+  font-size: 18px;
+  font-style:normal;
+  font-family: 'Homemade Apple', cursive;
+}
+
+
+/*iphone 5*/
+@media only screen
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    font-size: 160%!important;
+    margin-right:5%;
+  }
+  h1, h3 {
+    font-size: 160%!important;
+  }
+  h2 {
+    font-size: 110%!important;
+  }
+}
+
+/*iphone 6*/
+@media only screen
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2){
+  body {
+    font-size: 160%!important;
+    margin-right:5%;
+  }
+  h1, h3 {
+    font-size: 160%!important;
+  }
+  h2 {
+    font-size: 110%!important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 160%!important;
+    margin-right:5%;
+  }
+  h1 {
+    font-size: 160%!important;
+  }
+  h2, h3 {
+    font-size: 100%!important;
+  }
+}
+
