@@ -1,6 +1,6 @@
 a {
-  text-decoration:underline;
-  color:black;
+  color:white;
+  text-decoration:none;
 }
 
 a:hover, a:active {
@@ -8,51 +8,61 @@ a:hover, a:active {
   background-color: none;
 }
 
-
-#wrapper {
-  margin:10%;
-  margin-right:45%;
+body {
+  display: none;
+  background-image: url("../../img/influencers/one.jpg");
+  background-color: #FFFFFF; /*if img doesn't load*/
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 h1 {
   font-weight: normal;
-  color: black;
+  color: white;
   font-family: 'Lato';
-  font-size: 22px;
+  font-size: 24px;
 }
 
 h2 {
   font-weight: normal;
-  color: black;
+  color: white;
   font-family: 'Lato';
-  font-size: 16px;
+  font-size: 20px;
+  line-height:30px;
 }
 
 h3 {
   color: #0489B1;
   font-family: 'Lato';
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 100;
   font-style: normal;
+  line-height:40px;
 }
 
 #header {
-  background: url(../img/drizz.gif) center center;
+  background: url(../../img/influencers/test.gif) center center;
   height: 400px;
   overflow: auto;
   width: 100%;
   background-size: cover;
 }
 
-#slash {
-  display:inline;
-  color: #73D386;
+#wrapper {
+  margin:10%;
+  margin-top:4%;
 }
 
 .back-home {
   color: #73D386;
+  font-size: 18px;
+  font-style:normal;
   font-family: 'Homemade Apple', cursive;
 }
+
 
 /*iphone 5*/
 @media only screen
@@ -69,13 +79,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
   h2 {
     font-size: 110%!important;
   }
-}
-#header {
-  background: url(../img/drizz.gif) center center;
-  height: 400px;
-  overflow: auto;
-  width: 100%;
-  background-size: cover;
 }
 
 /*iphone 6*/

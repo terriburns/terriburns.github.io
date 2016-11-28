@@ -40,7 +40,7 @@ h3 {
 }
 
 #header {
-  background: url(../img/drizz.gif) center center;
+  background: url(../img/updates/drizz.gif) center center;
   height: 400px;
   overflow: auto;
   width: 100%;
@@ -48,7 +48,7 @@ h3 {
 }
 
 #dranks {
-  background: url(../img/drizz2.gif) center center;
+  background: url(../img/updates/drizz2.gif) center center;
   height: 400px;
   overflow: auto;
   width: 100%;

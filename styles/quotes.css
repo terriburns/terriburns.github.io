@@ -35,14 +35,13 @@ h3 {
   font-size: 18px;
   font-weight: 100;
   font-style: normal;
-  line-height:40px;
+  line-height:30px;
 }
 
 .back-home {
   color: #73D386;
   font-style:normal;
-} 
-
+}
 
 /*iphone 5*/
 @media only screen
@@ -63,8 +62,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 /*iphone 6*/
 @media only screen
-and (min-device-width: 375px) 
-and (max-device-width: 667px) 
+and (min-device-width: 375px)
+and (max-device-width: 667px)
 and (-webkit-min-device-pixel-ratio: 2){
   body {
     font-size: 160%!important;
