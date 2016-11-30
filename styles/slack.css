@@ -62,7 +62,7 @@ img {
   overflow: auto;
   height: 400px;;
   width: 100%;
-  background: url(../img/slackpic.png) center center;
+  background: url(../img/misc/slackpic.png) center center;
   background-size: cover;
 }
 

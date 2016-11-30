@@ -30,15 +30,15 @@ h2 {
 }
 
 h3 {
-  background-color: black;
   color: white;
-  font-family: 'Lato';
-  font-size: 38px;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 30px;
   font-weight: 100;
   font-style: normal;
   line-height: 40px;
-  margin-right: -20%;
-  margin-left: -20%;
+  margin-left: 10%;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 h4 {
@@ -47,16 +47,20 @@ h4 {
   font-size: 18px;
   font-weight: normal;
   line-height:30px;
+  margin: 0;
 }
 
 img {
-  position: relative;
-  float: left;
-  width:  85px;
-  height: 85px;
   background-position: 50% 50%;
   background-repeat:   no-repeat;
   background-size:     cover;
+  border-radius: 50%;
+  float: left;
+  height: 100px;
+  margin-top: -50px; 
+  position: absolute;
+  top: 50%;
+  width:  100px;
 }
 
 .back-home {
@@ -65,10 +69,21 @@ img {
   font-style:normal;
 }
 
-#one-ad {
-  display:inline-block;
+#description {
+  margin-left:13%;
 }
 
+#one-ad {
+  display:inline-block;
+  position:relative;
+  margin-bottom:4%;
+}
+
+#title {
+  background-color: #0489B1;
+  margin-left: -12%;
+  margin-right: -12%;
+}
 /*iphone 5*/
 @media only screen
 and (min-device-width: 320px) 
@@ -84,6 +99,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
   h2 {
     font-size: 110%!important;
   }
+  img {
+  position: relative;
+}
 }
 
 /*iphone 6*/
@@ -101,6 +119,9 @@ and (-webkit-min-device-pixel-ratio: 2){
   h2 {
     font-size: 110%!important;
   }
+  img {
+  position: relative;
+}
 }
 
 @media screen and (max-width: 600px) {
@@ -114,5 +135,8 @@ and (-webkit-min-device-pixel-ratio: 2){
   h2, h3 {
     font-size: 100%!important;
   }
+  img {
+  position: relative;
+}
 }
 

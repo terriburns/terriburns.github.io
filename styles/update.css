@@ -106,14 +106,14 @@ p {
   max-width: 100%;
 }
 #logo {
-  background: url(../img/logo.png) center center;
+  background: url(../img/misc/logo.png) center center;
   background-repeat:no-repeat;
   height: 55%;
   max-width: 100%;
 }
 
 #me {
-  background: url(../img/internet22.jpg) center center;
+  background: url(../img/misc/internet22.jpg) center center;
   background-repeat:no-repeat;
   height: 55%;
   max-width: 100%;
