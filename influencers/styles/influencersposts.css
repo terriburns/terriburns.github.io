@@ -44,6 +44,14 @@ h3 {
   background-size: cover;
 }
 
+#header1 {
+  background: url(../../img/influencers/jameel3.gif) center center;
+  height: 400px;
+  overflow: auto;
+  width: 100%;
+  background-size: cover;
+}
+
 #wrapper {
   margin:10%;
   margin-top:4%;
