@@ -1,11 +1,11 @@
 a {
   color:#0489B1;
-  text-decoration:underline;
 }
 
 a:hover, a:active {
   color:#73D386;
   background-color: none;
+  text-decoration:underline;
 }
 
 body {
@@ -67,6 +67,7 @@ img {
   color: #73D386;
   font-family: 'Homemade Apple', cursive;
   font-style:normal;
+  text-decoration:none;
 }
 
 #description {

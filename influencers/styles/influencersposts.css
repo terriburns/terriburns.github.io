@@ -4,8 +4,8 @@ a {
 }
 
 a:hover, a:active {
-  color:#73D386;
   background-color: none;
+  text-decoration:underline;
 }
 
 body {

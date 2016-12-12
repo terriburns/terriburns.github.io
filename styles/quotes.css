@@ -8,6 +8,7 @@ a {
 a:hover, a:active {
   color:#73D386;
   background-color: none;
+  text-decoration:underline;
 }
 
 body {
@@ -41,6 +42,7 @@ h3 {
 .back-home {
   color: #73D386;
   font-style:normal;
+  text-decoration:none;
 }
 
 /*iphone 5*/

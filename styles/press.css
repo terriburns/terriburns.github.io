@@ -5,6 +5,7 @@ a {
 a:hover, a:active {
   color:#73D386;
   background-color: none;
+  text-decoration:underline;
 }
 
 body {
@@ -42,7 +43,8 @@ h3 {
 .back-home {
   color: #73D386;
   font-family: 'Homemade Apple', cursive;
-} 
+  text-decoration:none;
+}
 
 /*iphone 5*/
 @media only screen

@@ -1,11 +1,11 @@
 a {
-  text-decoration:underline;
-  color:black;
+  color: #73D386;
+  text-decoration:none;
 }
 
 a:hover, a:active {
-  color:#73D386;
   background-color: none;
+  text-decoration:underline;
 }
 
 
