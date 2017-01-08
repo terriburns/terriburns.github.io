@@ -86,7 +86,7 @@ b /*nouns*/
 
 body {
   display: none;
-  background-image: url("../img/misc/danigrant.jpg");
+  background-image: url("../img/misc/test2.jpg");
   background-color: #000000; /*if img doesn't load*/
   background-repeat: no-repeat;
   -webkit-background-size: cover;
