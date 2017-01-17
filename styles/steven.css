@@ -1,0 +1,139 @@
+a {
+  color:white;
+  text-decoration:underline;
+}
+
+a:hover, a:active {
+  color:yellow;
+  background-color: none;
+}
+
+b /*nouns*/
+{
+  color:#72BA7B;
+}
+
+body {
+  display: none;
+  background-image: url("../img/steven/five.jpg");
+  background-color: #000000; /*if img doesn't load*/
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top:20%;
+}
+
+
+/*iphone 5*/
+@media only screen
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    background-image: none;
+    background-color: black;
+    font-size: 160%!important;
+}
+h3 {
+  font-size: 160%!important;
+}
+}
+
+/*iphone 6*/
+@media only screen
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2){
+  body {
+    background-image: none;
+    background-color: black;
+    font-size: 160%!important;
+}
+h3 {
+  font-size: 160%!important;
+}
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-image: none;
+    background-color: black;
+    font-size: 160%!important;
+}
+h3 {
+  font-size: 160%!important;
+}
+}
+
+h1 {
+  color: white;
+  font-family: 'Overpass Mono', monospace;
+  font-size: 75px;
+  font-weight: 100;
+  line-height: 25%;
+  margin-top:25%;
+}
+
+h2 {
+  color: white;
+  font-size: 180%;
+  font-family: 'La Belle Aurore', cursive;
+  font-weight: normal;
+  line-height: 150%;
+}
+
+h3 {
+  background-color: black;
+  color: white;
+  font-family: 'Overpass Mono', monospace;
+  font-size: 22px;
+  line-height: 250%;
+  font-weight: normal;
+  width: 85%;
+}
+
+p {
+  color: yellow;
+}
+
+#both {
+  display:inline-flex;
+}
+
+#wrapper .text {
+  position:relative;
+  bottom:30px;
+  left:0px;
+  visibility:hidden;
+}
+
+#wrapper:hover .text {
+  visibility:visible;
+}
+#wrapper-two .text {
+  position:relative;
+  bottom:30px;
+  left:0px;
+  visibility:hidden;
+  width:100%;
+  overflow:hidden;
+}
+
+#wrapper-two:hover .text {
+  visibility:visible;
+  animation: 10s slide-down;
+  margin-top:0%;
+}
+
+@keyframes slide-down {
+  from {
+    margin-top: -10%;
+  }
+
+  to {
+    margin-top: 0%;
+    height: 100%;
+  }
+}
