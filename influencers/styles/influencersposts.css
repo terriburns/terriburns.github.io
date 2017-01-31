@@ -51,6 +51,14 @@ h3 {
   background-size: cover;
 }
 
+#annheader {
+  background: url(../../img/influencers/ann.gif) center center;
+  height: 400px;
+  overflow: auto;
+  width: 100%;
+  background-size: cover;
+}
+
 #wrapper {
   margin:10%;
   margin-top:4%;
