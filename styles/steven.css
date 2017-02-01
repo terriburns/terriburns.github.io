@@ -305,24 +305,24 @@ there.
 /* Larger than tablet */
 @media (min-width: 850px) {
   #title {
-    font-size: 80px;
+    font-size: 60px;
     letter-spacing: 15px;
   }
 
     #about {
-    font-size: 30px;
+    font-size: 22px;
   }
 }
 
 /* Larger than desktop */
 @media (min-width: 1100px) {
   #title {
-    font-size: 110px;
+    font-size: 80px;
     letter-spacing: 20px;
   }
 
     #about {
-    font-size: 35px;
+    font-size: 30px;
   }
 
 }
