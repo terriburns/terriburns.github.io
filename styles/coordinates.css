@@ -75,7 +75,7 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-image: url("../img/steven/option1.jpg");
+  background-image: url("../img/steven/country1.jpg");
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -88,14 +88,14 @@ body {
 }
 
 #title {
-  font-size: 100px;
+  font-size: 80px;
   letter-spacing: 20px;
 }
 
 #about {
   font-size: 30px;
   text-align: center;
-  color: #000;
+  color: white;
 }
 
 #buy{
@@ -279,6 +279,7 @@ there.
 @media (min-width: 400px)  {
     #title {
     font-size: 42px;
+    color:green;
     text-align: center;
     font-family: "Raleway";
     letter-spacing: 5px;
@@ -330,7 +331,7 @@ there.
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
   #title {
-    font-size: 120px;
+    font-size: 100px;
     letter-spacing: 20px;
   }
 
