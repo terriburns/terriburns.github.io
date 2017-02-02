@@ -1,11 +1,11 @@
 /*
-* Skeleton V2.0.4
-* Copyright 2014, Dave Gamache
-* www.getskeleton.com
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-* 12/29/2014
-*/
+ * Skeleton V2.0.4
+ * Copyright 2014, Dave Gamache
+ * www.getskeleton.com
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 12/29/2014
+ */
 
 
 /* Table of contents
@@ -23,7 +23,7 @@
 - Utilities
 - Clearing
 - Media Queries
-*/
+ */
 
 
 /* Grid
@@ -75,7 +75,7 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-image: url("../img/steven/country1.jpg");
+  background-image: url("../img/steven/option1.jpg");
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -87,9 +87,15 @@ body {
   color: #fff;
 }
 
+
+#description {
+  font-size:125%;
+}
+
 #title {
-  font-size: 80px;
-  letter-spacing: 20px;
+  font-size: 100px;
+  font-family: "CoA";
+  text-align: center;
 }
 
 #about {
@@ -103,6 +109,7 @@ body {
   margin-bottom: 10%;
   margin-top: 5%;
 }
+
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -119,7 +126,7 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
 /* Larger than phablet */
 @media (min-width: 550px) {
-  h1 { font-size: 5.0rem; }
+  h1 { font-size: .0rem; }
   h2 { font-size: 4.2rem; }
   h3 { font-size: 3.6rem; }
   h4 { font-size: 3.0rem; }
@@ -127,14 +134,9 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
   h6 { font-size: 1.5rem; }
 }
 
-p {
-  font-size:130%;
-  margin-top: 0; 
-}
-
-p#sponsor {
-  font-size:100%;
-  margin-top: 0; 
+@font-face {
+  font-family: CoA;
+  src: url(ColorsOfAutumn.ttf);
 }
 
 /* Links
@@ -272,92 +274,69 @@ Note: The best way to structure the use of media queries is to create the querie
 near the relevant code. For example, if you wanted to change the styles for buttons
 on small devices, paste the mobile query code up in the buttons section and style it
 there.
-*/
+ */
 
-/*mobile */
-@media only screen 
-and (min-device-width: 320px) 
-and (max-device-width: 568px)
-and (-webkit-min-device-pixel-ratio: 2) {
+/*iphone 6*/
+@media (min-width: 370px)  {
   #title {
-    font-size: 42px;
-    color:blue;
-    text-align: center;
-    font-family: "Raleway";
-    letter-spacing: 5px;
-  }
-
-  #about {
-    font-size: 18px;
-    margin-top: -2%;
-  }
+    font-size: 2em;
+    letter-spacing: 1px;
+    font-family: "CoA";
+}
+#about {
+  color:white;
+  font-size: 2em;
+}
 }
 
 /* Larger than mobile */
 @media (min-width: 400px)  {
-    #title {
-    font-size: 42px;
-    color:white;
-    text-align: center;
-    font-family: "Raleway";
-    letter-spacing: 5px;
-  }
-
-  #about {
-    font-size: 18px;
-    margin-top: -2%;
-  }
+  #title {
+    font-size: 3em;
+    font-family: "CoA";
+}
+#about {
+  color:white;
+  font-size: 2.5em;
+}
 }
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
   #title {
-    font-size: 60px;
-    letter-spacing: 15px;
-    color:white;
-    text-align: center;
-  }
-
-    #about {
-    font-size: 20px;
-  }
+    font-size: 3em;
+}
+#about {
+  color:white;
+  font-size: 2.5em;
+}
 }
 
 /* Larger than tablet */
 @media (min-width: 850px) {
   #title {
-    font-size: 80px;
-    letter-spacing: 15px;
-    color:white;
-  }
+    font-size: 75px;
+    font-family: "CoA";
+    letter-spacing: 3px;
+}
 
-    #about {
-    font-size: 30px;
-  }
+#about {
+  font-size: 55px;
+}
 }
 
 /* Larger than desktop */
 @media (min-width: 1100px) {
   #title {
-    font-size: 110px;
-    letter-spacing: 20px;
-    color:white;
-  }
-
-    #about {
-    font-size: 35px;
-  }
-
+    font-size: 100px;
+    letter-spacing: 7px;
+}
 }
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
   #title {
-    font-size: 100px;
-    letter-spacing: 20px;
-  }
-
-    #about {
-    font-size: 40px;
-  }
+    font-size: 120px;
+    letter-spacing: 7px;
+}
 }
