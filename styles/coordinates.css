@@ -279,7 +279,7 @@ there.
 /*iphone 5*/
 @media (min-width: 320px)  {
   #title {
-    font-size: 100%;
+    font-size: 130%;
     letter-spacing: 1px;
     font-family: "CoA";
 }
