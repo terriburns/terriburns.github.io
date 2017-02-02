@@ -274,12 +274,30 @@ on small devices, paste the mobile query code up in the buttons section and styl
 there.
 */
 
+/*mobile */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  #title {
+    font-size: 42px;
+    color:blue;
+    text-align: center;
+    font-family: "Raleway";
+    letter-spacing: 5px;
+  }
+
+  #about {
+    font-size: 18px;
+    margin-top: -2%;
+  }
+}
 
 /* Larger than mobile */
 @media (min-width: 400px)  {
     #title {
     font-size: 42px;
-    color:green;
+    color:white;
     text-align: center;
     font-family: "Raleway";
     letter-spacing: 5px;
@@ -296,7 +314,8 @@ there.
   #title {
     font-size: 60px;
     letter-spacing: 15px;
-    color:blue;
+    color:white;
+    text-align: center;
   }
 
     #about {
@@ -309,7 +328,7 @@ there.
   #title {
     font-size: 80px;
     letter-spacing: 15px;
-    color:black;
+    color:white;
   }
 
     #about {
@@ -322,7 +341,7 @@ there.
   #title {
     font-size: 110px;
     letter-spacing: 20px;
-    color:red;
+    color:white;
   }
 
     #about {
