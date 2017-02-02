@@ -296,6 +296,7 @@ there.
   #title {
     font-size: 60px;
     letter-spacing: 15px;
+    color:blue;
   }
 
     #about {
@@ -308,6 +309,7 @@ there.
   #title {
     font-size: 80px;
     letter-spacing: 15px;
+    color:black;
   }
 
     #about {
@@ -320,6 +322,7 @@ there.
   #title {
     font-size: 110px;
     letter-spacing: 20px;
+    color:red;
   }
 
     #about {
