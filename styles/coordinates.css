@@ -276,10 +276,10 @@ on small devices, paste the mobile query code up in the buttons section and styl
 there.
  */
 
-/*iphone 6*/
-@media (min-width: 370px)  {
+/*iphone 5*/
+@media (min-width: 320px)  {
   #title {
-    font-size: 2em;
+    font-size: 100%;
     letter-spacing: 1px;
     font-family: "CoA";
 }
