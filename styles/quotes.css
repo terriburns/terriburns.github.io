@@ -31,7 +31,7 @@ h2 {
 }
 
 h3 {
-  color: #0489B1;
+  color:#B43216; /*red*/
   font-family: 'Lato';
   font-size: 18px;
   font-weight: 100;
@@ -40,9 +40,9 @@ h3 {
 }
 
 .back-home {
-  color: #73D386;
-  font-style:normal;
-  text-decoration:none;
+  color:#B43216; /*red*/
+  font-family: 'Homemade Apple', cursive;
+  text-decoration: underline;
 }
 
 /*iphone 5*/
