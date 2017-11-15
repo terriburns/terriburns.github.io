@@ -19,20 +19,20 @@ body {
 h1 {
   font-weight: normal;
   color: black;
-  font-family: 'Lato';
+  font-family: 'neuzeit-grotesk', sans-serif;
   font-size: 32px;
 }
 
 h2 {
   font-weight: normal;
   color: black;
-  font-family: 'Lato';
+  font-family: 'neuzeit-grotesk', sans-serif;
   font-size: 18px;
 }
 
 h3 {
   color:#B43216; /*red*/
-  font-family: 'Lato';
+  font-family: 'neuzeit-grotesk', sans-serif;
   font-size: 18px;
   font-weight: 100;
   font-style: normal;

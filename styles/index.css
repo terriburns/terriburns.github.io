@@ -2,7 +2,6 @@
 .lasvegas {
   border: none;
   color: transparent;
-  font-family: 'Amatic SC', cursive;
   margin-right: 7%;
   text-align: center;
   text-shadow: 
@@ -102,7 +101,7 @@ body {
 
 footer {
   color: white;
-  font-family: 'Lato';
+  font-family: 'neuzeit-grotesk', sans-serif;
   font-size: 60%;
   font-weight: normal;
   line-height: 100%;
@@ -152,8 +151,8 @@ and (-webkit-min-device-pixel-ratio: 2){
 /*name*/
 h1 {
   color: white;
-  font-family: 'Amatic SC', cursive;
-  font-size: 80px;
+  font-family: 'neuzeit-grotesk', sans-serif;
+  font-size: 400%;
   font-weight: 100;
   line-height: 110%;
   margin-bottom:0;
@@ -162,7 +161,7 @@ h1 {
 /*intro*/
 h2 {
   color: white;
-  font-family: 'Lato';
+  font-family: 'neuzeit-grotesk', sans-serif;
   font-weight: normal;
   font-size: 148%;
   line-height: 150%;
@@ -172,7 +171,7 @@ h2 {
 /*content*/
 h3 {
   color: white;
-  font-family: 'Lato';
+  font-family: 'neuzeit-grotesk', sans-serif;
   font-size: 22px;
   font-weight: normal;
   line-height: 150%;
@@ -181,7 +180,7 @@ h3 {
 /*subtitle*/
 h4 {
   color: white;
-  font-family: 'Lato';
+  font-family: 'neuzeit-grotesk', sans-serif;
   font-size: 35px;
   line-height: 1%;
 }

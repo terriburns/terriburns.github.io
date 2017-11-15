@@ -20,7 +20,7 @@ body {
 h1 {
   font-weight: normal;
   color: black;
-  font-family: 'Lato';
+  font-family: 'neuzeit-grotesk', sans-serif;
   font-size: 65px;
   line-height: 200%;
   margin-left: 20%;
@@ -31,7 +31,7 @@ h1 {
 h2 {
   font-weight: normal;
   color: black;
-  font-family: 'Lato';
+  font-family: 'neuzeit-grotesk', sans-serif;
   font-size: 18px;
   line-height: 40px;
   margin-left: 20%;
@@ -43,7 +43,7 @@ h4 {
   font-weight: normal;
   color: red;
   display:inline;
-  font-family: 'Lato';
+  font-family: 'neuzeit-grotesk', sans-serif;
   font-size: 16px;
   line-height: 40px;
   margin-left: 20%;
@@ -52,7 +52,7 @@ h4 {
 
 footer {
   color: black;
-  font-family: 'Lato';
+  font-family: 'neuzeit-grotesk', sans-serif;
   font-size: 15px;
   margin-left: 5%;
   margin-right: 5%;
