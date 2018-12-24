@@ -17,15 +17,15 @@ h1 {
   font-weight: normal;
   color: black;
   font-family: 'neuzeit-grotesk', sans-serif;
-  font-size: 32px;
+  font-size: 40px;
 }
 
 h2 {
   font-weight: normal;
   color: black;
   font-family: 'neuzeit-grotesk', sans-serif;
-  font-size: 18px;
-  line-height:30px;
+  font-size: 22px;
+  line-height:150%;
 }
 
 h3 {
@@ -60,13 +60,15 @@ and (min-device-width: 320px)
 and (max-device-width: 568px)
 and (-webkit-min-device-pixel-ratio: 2) {
   body {
-    font-size: 160%!important;
+    font-size: 180%!important;
   }
   h1, h3 {
-    font-size: 160%!important;
+    font-size: 180%!important;
+  line-height:90%;
   }
   h2 {
-    font-size: 110%!important;
+    font-size: 130%!important;
+  line-height:90%;
   }
 }
 
@@ -76,25 +78,29 @@ and (min-device-width: 375px)
 and (max-device-width: 667px) 
 and (-webkit-min-device-pixel-ratio: 2){
   body {
-    font-size: 160%!important;
+    font-size: 180%!important;
   }
   h1, h3 {
-    font-size: 160%!important;
+    font-size: 180%!important;
+  line-height:90%;
   }
   h2 {
-    font-size: 110%!important;
+    font-size: 130%!important;
+  line-height:90%;
   }
 }
 
 @media screen and (max-width: 600px) {
   body {
-    font-size: 160%!important;
+    font-size: 180%!important;
   }
   h1, h3 {
-    font-size: 160%!important;
+    font-size: 180%!important;
+  line-height:90%;
   }
   h2 {
-    font-size: 110%!important;
+    font-size: 130%!important;
+  line-height:90%;
   }
 }
 

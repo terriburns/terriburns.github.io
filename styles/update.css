@@ -9,7 +9,7 @@ a:hover, a:active {
 }
 
 b {
-  color:#0174DF;
+  /*color:#0174DF;*/
 }
 
 body {
@@ -28,11 +28,23 @@ h1 {
   text-align:center;
 }
 
+/*same as heading #1, but slighly tweaked for Update #2*/
+h5 {
+  font-weight: normal;
+  color: black;
+  font-family: 'neuzeit-grotesk', sans-serif;
+  font-size: 35px;
+  line-height: 150%;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align:center;
+}
+
 h2 {
   font-weight: normal;
   color: black;
   font-family: 'neuzeit-grotesk', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 40px;
   margin-left: 20%;
   margin-right: 20%;
@@ -75,6 +87,13 @@ p {
   background-size: cover;
 }
 
+#header_two {
+  background: url(../img/updates_two/mariah.gif) center center;
+  height: 400px;
+  overflow: auto;
+  width: 100%;
+  background-size: cover;
+}
 #dranks {
   background: url(../img/drizz2.gif) center center;
   height: 400px;
