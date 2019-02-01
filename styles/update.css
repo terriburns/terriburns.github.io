@@ -94,6 +94,15 @@ p {
   width: 100%;
   background-size: cover;
 }
+
+#header_three {
+  background: url(../img/cardi.gif) center center;
+  height: 400px;
+  overflow: auto;
+  width: 100%;
+  background-size: cover;
+}
+
 #dranks {
   background: url(../img/drizz2.gif) center center;
   height: 400px;
