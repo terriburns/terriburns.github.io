@@ -95,6 +95,14 @@ p {
   background-size: cover;
 }
 
+#header_four {
+  background: url(../img/updates_two/rih.gif) center center;
+  height: 400px;
+  overflow: auto;
+  width: 100%;
+  background-size: cover;
+}
+
 #header_three {
   background: url(../img/cardi.gif) center center;
   height: 400px;
