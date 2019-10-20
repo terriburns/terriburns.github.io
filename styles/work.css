@@ -1,5 +1,6 @@
 a {
   color:black;
+  font-family: 'Quicksand', sans-serif;
   text-decoration: none;
 }
 
@@ -16,24 +17,23 @@ body {
 h1 {
   font-weight: normal;
   color: black;
-  font-family: 'neuzeit-grotesk', sans-serif;
-  font-size: 40px;
+  font-family: 'Quicksand', sans-serif;
 }
 
 h2 {
   font-weight: normal;
   color: black;
-  font-family: 'neuzeit-grotesk', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 22px;
   line-height:150%;
 }
 
 h3 {
   color:#B43216; /*red*/
+  font-family: 'Quicksand', sans-serif;
   font-size: 30px;
   font-weight: 100;
   font-style: normal;
-  font-family: 'Homemade Apple';
   line-height:0;
 }
 
@@ -49,8 +49,7 @@ h3 {
 
 .back-home {
   color:#B43216; /*red*/
-  font-family: 'Homemade Apple', cursive;
-  text-decoration:underline;
+  font-family: 'Quicksand', sans-serif;
 }
 
 

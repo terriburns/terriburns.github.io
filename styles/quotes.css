@@ -1,14 +1,12 @@
 a {
   color:black;
-  font-style:italic;
-  font-family: 'Homemade Apple';
+  font-family: 'Quicksand', sans-serif;
   text-decoration:none;
 }
 
 a:hover, a:active {
   color:#73D386;
   background-color: none;
-  text-decoration:underline;
 }
 
 body {
@@ -19,21 +17,21 @@ body {
 h1 {
   font-weight: normal;
   color: black;
-  font-family: 'neuzeit-grotesk', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 40px;
 }
 
 h2 {
   font-weight: normal;
   color: black;
-  font-family: 'neuzeit-grotesk', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 22px;
 }
 
 h3 {
   line-height:90%;
   color:#B43216; /*red*/
-  font-family: 'neuzeit-grotesk', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 18px;
   font-weight: 100;
   font-style: normal;
@@ -42,8 +40,7 @@ h3 {
 
 .back-home {
   color:#B43216; /*red*/
-  font-family: 'Homemade Apple', cursive;
-  text-decoration: underline;
+  font-family: 'Quicksand', sans-serif;
 }
 
 /*iphone 5*/
