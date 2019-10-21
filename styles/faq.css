@@ -58,6 +58,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   body {
     font-size: 160%!important;
     margin-right:5%;
+    padding-right:30%;
   }
   h1, h3 {
     font-size: 160%!important;
@@ -75,6 +76,7 @@ and (-webkit-min-device-pixel-ratio: 2){
   body {
     font-size: 160%!important;
     margin-right:5%;
+    padding-right:30%;
   }
   h1, h3 {
     font-size: 160%!important;
@@ -88,6 +90,7 @@ and (-webkit-min-device-pixel-ratio: 2){
   body {
     font-size: 160%!important;
     margin-right:5%;
+    padding-right:30%;
   }
   h1 {
     font-size: 160%!important;
