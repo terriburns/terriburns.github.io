@@ -107,6 +107,14 @@ p {
   background-size: cover;
 }
 
+#header_tomorrow {
+  background: url(../img/updates/tomorrow.gif) center center;
+  height: 400px;
+  overflow: auto;
+  width: 100%;
+  background-size: cover;
+}
+
 #dranks {
   background: url(../img/drizz2.gif) center center;
   height: 400px;
